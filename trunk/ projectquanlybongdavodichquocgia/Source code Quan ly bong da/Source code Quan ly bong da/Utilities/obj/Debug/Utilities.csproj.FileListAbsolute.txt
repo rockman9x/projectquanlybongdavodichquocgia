@@ -1,0 +1,30 @@
+D:\TAP NHAM\BongDa\Utilities\bin\Debug\Utilities.dll
+D:\TAP NHAM\BongDa\Utilities\bin\Debug\Utilities.pdb
+D:\TAP NHAM\BongDa\Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\TAP NHAM\BongDa\Utilities\obj\Debug\Utilities.dll
+D:\TAP NHAM\BongDa\Utilities\obj\Debug\Utilities.pdb
+O:\BongDa\Utilities\bin\Debug\Utilities.dll
+O:\BongDa\Utilities\bin\Debug\Utilities.pdb
+O:\BongDa\Utilities\obj\Debug\ResolveAssemblyReference.cache
+O:\BongDa\Utilities\obj\Debug\Utilities.dll
+O:\BongDa\Utilities\obj\Debug\Utilities.pdb
+D:\TAP NHAM\cuong\BongDa\Utilities\bin\Debug\Utilities.dll
+D:\TAP NHAM\cuong\BongDa\Utilities\bin\Debug\Utilities.pdb
+D:\TAP NHAM\cuong\BongDa\Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\TAP NHAM\cuong\BongDa\Utilities\obj\Debug\Utilities.dll
+D:\TAP NHAM\cuong\BongDa\Utilities\obj\Debug\Utilities.pdb
+C:\BongDa\Utilities\bin\Debug\Utilities.dll
+C:\BongDa\Utilities\bin\Debug\Utilities.pdb
+C:\BongDa\Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\BongDa\Utilities\obj\Debug\Utilities.dll
+C:\BongDa\Utilities\obj\Debug\Utilities.pdb
+G:\Source code Quan ly bong da\Utilities\bin\Debug\Utilities.dll
+G:\Source code Quan ly bong da\Utilities\bin\Debug\Utilities.pdb
+G:\Source code Quan ly bong da\Utilities\obj\Debug\ResolveAssemblyReference.cache
+G:\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.dll
+G:\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\bin\Debug\Utilities.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\bin\Debug\Utilities.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.pdb
