@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14231BF9-99B7-4ADB-BF48-AAAA30694DA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentations</RootNamespace>
+    <AssemblyName>Presentations</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\QuanLyBongDaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyBongDaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Quan ly doi bong\ChiTietDanhSachCauThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan ly doi bong\ChiTietDanhSachCauThu.Designer.cs">
+      <DependentUpon>ChiTietDanhSachCauThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan ly doi bong\ChiTietDanhSachDoiBong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan ly doi bong\ChiTietDanhSachDoiBong.Designer.cs">
+      <DependentUpon>ChiTietDanhSachDoiBong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giao dien chinh\GiaoDienChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giao dien chinh\GiaoDienChinh.Designer.cs">
+      <DependentUpon>GiaoDienChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Quan ly  ket qua\QuanLyKetQua.resx">
+      <DependentUpon>QuanLyKetQua.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan ly doi bong\ChiTietDanhSachCauThu.resx">
+      <DependentUpon>ChiTietDanhSachCauThu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan ly doi bong\ChiTietDanhSachDoiBong.resx">
+      <DependentUpon>ChiTietDanhSachDoiBong.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giao dien chinh\GiaoDienChinh.resx">
+      <DependentUpon>GiaoDienChinh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan ly doi bong\QuanLyDoiBong.resx">
+      <DependentUpon>QuanLyDoiBong.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan ly trong tai\QuanLyTrongTai.resx">
+      <DependentUpon>QuanLyTrongTai.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan ly thi dau\QuanLyThiDau.resx">
+      <DependentUpon>QuanLyThiDau.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tra Cuu\TraCuu.resx">
+      <DependentUpon>TraCuu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Quan ly doi bong\QuanLyDoiBong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan ly doi bong\QuanLyDoiBong.Designer.cs">
+      <DependentUpon>QuanLyDoiBong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan ly trong tai\QuanLyTrongTai.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan ly trong tai\QuanLyTrongTai.Designer.cs">
+      <DependentUpon>QuanLyTrongTai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan ly  ket qua\QuanLyKetQua.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan ly  ket qua\QuanLyKetQua.Designer.cs">
+      <DependentUpon>QuanLyKetQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan ly thi dau\QuanLyThiDau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan ly thi dau\QuanLyThiDau.Designer.cs">
+      <DependentUpon>QuanLyThiDau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tra Cuu\TraCuu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tra Cuu\TraCuu.Designer.cs">
+      <DependentUpon>TraCuu.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\football_player.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images copy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{F87DFB10-F73F-473C-8647-5723688FCB47}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALayer\DALayer.csproj">
+      <Project>{AEA7302D-CF69-4927-BAB4-C463EFA61719}</Project>
+      <Name>DALayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{7C51018C-0038-4E03-B2C9-8FDB2A372686}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{15E14E61-6154-4ECA-B9D5-2B4314FCBF7C}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\QuanLyBongDaDataSet.xsc">
+      <DependentUpon>QuanLyBongDaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data\QuanLyBongDaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyBongDaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\QuanLyBongDaDataSet.xss">
+      <DependentUpon>QuanLyBongDaDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.9.2">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition SP2 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\QuanLyBongDa.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\QuanLyBongDa_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>QuanLyBongDa.mdf</DependentUpon>
+    </Content>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\button1.jpg" />
+    <None Include="Resources\banner1.jpg" />
+    <None Include="Resources\panel.jpg" />
+    <None Include="Resources\button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

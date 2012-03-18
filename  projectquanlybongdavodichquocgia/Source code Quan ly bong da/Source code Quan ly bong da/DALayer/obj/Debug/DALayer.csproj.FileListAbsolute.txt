@@ -1,0 +1,63 @@
+D:\TAP NHAM\BongDa\DALayer\bin\Debug\DALayer.dll
+D:\TAP NHAM\BongDa\DALayer\bin\Debug\DALayer.pdb
+D:\TAP NHAM\BongDa\DALayer\bin\Debug\Entities.dll
+D:\TAP NHAM\BongDa\DALayer\bin\Debug\Utilities.dll
+D:\TAP NHAM\BongDa\DALayer\bin\Debug\Utilities.pdb
+D:\TAP NHAM\BongDa\DALayer\bin\Debug\Entities.pdb
+D:\TAP NHAM\BongDa\DALayer\obj\Debug\ResolveAssemblyReference.cache
+D:\TAP NHAM\BongDa\DALayer\obj\Debug\DALayer.dll
+D:\TAP NHAM\BongDa\DALayer\obj\Debug\DALayer.pdb
+O:\BongDa\DALayer\bin\Debug\DALayer.dll
+O:\BongDa\DALayer\bin\Debug\DALayer.pdb
+O:\BongDa\DALayer\bin\Debug\Entities.dll
+O:\BongDa\DALayer\bin\Debug\Utilities.dll
+O:\BongDa\DALayer\bin\Debug\Utilities.pdb
+O:\BongDa\DALayer\bin\Debug\Entities.pdb
+O:\BongDa\DALayer\obj\Debug\ResolveAssemblyReference.cache
+O:\BongDa\DALayer\obj\Debug\DALayer.dll
+O:\BongDa\DALayer\obj\Debug\DALayer.pdb
+D:\TAP NHAM\cuong\BongDa\DALayer\bin\Debug\DALayer.dll
+D:\TAP NHAM\cuong\BongDa\DALayer\bin\Debug\DALayer.pdb
+D:\TAP NHAM\cuong\BongDa\DALayer\bin\Debug\Entities.dll
+D:\TAP NHAM\cuong\BongDa\DALayer\bin\Debug\Utilities.dll
+D:\TAP NHAM\cuong\BongDa\DALayer\bin\Debug\Utilities.pdb
+D:\TAP NHAM\cuong\BongDa\DALayer\bin\Debug\Entities.pdb
+D:\TAP NHAM\cuong\BongDa\DALayer\obj\Debug\ResolveAssemblyReference.cache
+D:\TAP NHAM\cuong\BongDa\DALayer\obj\Debug\DALayer.dll
+D:\TAP NHAM\cuong\BongDa\DALayer\obj\Debug\DALayer.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\bin\Debug\DALayer.dll
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\bin\Debug\DALayer.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\bin\Debug\Entities.dll
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\bin\Debug\Utilities.dll
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\bin\Debug\Utilities.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\bin\Debug\Entities.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\obj\Debug\DALayer.dll
+C:\Documents and Settings\Me\My Documents\BongDa\DALayer\obj\Debug\DALayer.pdb
+C:\BongDa\DALayer\bin\Debug\DALayer.dll
+C:\BongDa\DALayer\bin\Debug\DALayer.pdb
+C:\BongDa\DALayer\bin\Debug\Entities.dll
+C:\BongDa\DALayer\bin\Debug\Utilities.dll
+C:\BongDa\DALayer\bin\Debug\Utilities.pdb
+C:\BongDa\DALayer\bin\Debug\Entities.pdb
+C:\BongDa\DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\BongDa\DALayer\obj\Debug\DALayer.dll
+C:\BongDa\DALayer\obj\Debug\DALayer.pdb
+G:\Source code Quan ly bong da\DALayer\bin\Debug\DALayer.dll
+G:\Source code Quan ly bong da\DALayer\bin\Debug\DALayer.pdb
+G:\Source code Quan ly bong da\DALayer\bin\Debug\Entities.dll
+G:\Source code Quan ly bong da\DALayer\bin\Debug\Utilities.dll
+G:\Source code Quan ly bong da\DALayer\bin\Debug\Utilities.pdb
+G:\Source code Quan ly bong da\DALayer\bin\Debug\Entities.pdb
+G:\Source code Quan ly bong da\DALayer\obj\Debug\ResolveAssemblyReference.cache
+G:\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.dll
+G:\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\bin\Debug\DALayer.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\bin\Debug\DALayer.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\bin\Debug\Entities.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\bin\Debug\Utilities.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\bin\Debug\Utilities.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\bin\Debug\Entities.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.pdb
