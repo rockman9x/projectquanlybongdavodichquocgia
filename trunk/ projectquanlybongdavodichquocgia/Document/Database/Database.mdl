@@ -84,6 +84,11 @@
 		logical_models 	(list unit_reference_list
 		    (object Class "DoiBong"
 			quid       	"4F74975B0265"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"4F77CFE3036D"
+				supplier   	"Use Case View::DoiBong::DonViChuQuan"
+				quidu      	"4F75E67300FA"))
 			operations 	(list Operations
 			    (object Operation "sid_doibong"
 				quid       	"4F74979501B2"
@@ -182,11 +187,21 @@
 				uid        	0)))
 		    (object Class "CauThu"
 			quid       	"4F749893000B"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"4F77CE2901A7"
+				supplier   	"Use Case View::DoiBong::DoiBong"
+				quidu      	"4F74975B0265"))
 			operations 	(list Operations
 			    (object Operation "sid_cauthu"
 				quid       	"4F7498E40372"
 				concurrency 	"Sequential"
 				opExportControl 	"Protected"
+				uid        	0)
+			    (object Operation "sid_doibong"
+				quid       	"4F77CDB003DC"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
 				uid        	0)
 			    (object Operation "id_cauthu"
 				quid       	"4F7498EA0281"
@@ -246,7 +261,7 @@
 		    (object Class "DonViChuQuan"
 			quid       	"4F75E67300FA"
 			operations 	(list Operations
-			    (object Operation "sdi_dvchuquan"
+			    (object Operation "sid_dvchuquan"
 				quid       	"4F75E7650117"
 				concurrency 	"Sequential"
 				opExportControl 	"Protected"
@@ -283,6 +298,15 @@
 				uid        	0)))
 		    (object Class "lichthidau"
 			quid       	"4F75E7E202E5"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"4F77D32D02F3"
+				supplier   	"Use Case View::DoiBong::DoiBong"
+				quidu      	"4F74975B0265")
+			    (object Inheritance_Relationship
+				quid       	"4F77D37B039D"
+				supplier   	"Use Case View::DoiBong::giaidau"
+				quidu      	"4F75EA4A01BF"))
 			operations 	(list Operations
 			    (object Operation "sid_lichthidau"
 				quid       	"4F75E7F10336"
@@ -326,6 +350,11 @@
 				uid        	0)))
 		    (object Class "bienbantrandau"
 			quid       	"4F75E84E008B"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"4F77D33401DB"
+				supplier   	"Use Case View::DoiBong::DoiBong"
+				quidu      	"4F74975B0265"))
 			operations 	(list Operations
 			    (object Operation "sid_bienbantrandau"
 				quid       	"4F75E85B0255"
@@ -384,6 +413,15 @@
 				uid        	0)))
 		    (object Class "dsbanthang"
 			quid       	"4F75E8CA01BD"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"4F77D33C0144"
+				supplier   	"Use Case View::DoiBong::bienbantrandau"
+				quidu      	"4F75E84E008B")
+			    (object Inheritance_Relationship
+				quid       	"4F77D34100AE"
+				supplier   	"Use Case View::DoiBong::DoiBong"
+				quidu      	"4F74975B0265"))
 			operations 	(list Operations
 			    (object Operation "sid_dsbanthang"
 				quid       	"4F75E8D40243"
@@ -435,6 +473,28 @@
 				uid        	0)))
 		    (object Class "chitiettrandau"
 			quid       	"4F75E918010F"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"4F77D1F001CD"
+				supplier   	"Use Case View::DoiBong::chitietloi"
+				quidu      	"4F75E95D0259")
+			    (object Inheritance_Relationship
+				quid       	"4F77D1F40346"
+				supplier   	"Use Case View::DoiBong::bienbantrandau"
+				quidu      	"4F75E84E008B"))
+			used_nodes 	(list uses_relationship_list
+			    (object Uses_Relationship
+				quid       	"4F77CFF50117"
+				supplier   	"Use Case View::DoiBong::chitietloi"
+				quidu      	"4F75E95D0259")
+			    (object Uses_Relationship
+				quid       	"4F77CFFE019F"
+				supplier   	"Use Case View::DoiBong::chitietloi"
+				quidu      	"4F75E95D0259")
+			    (object Uses_Relationship
+				quid       	"4F77D0090022"
+				supplier   	"Use Case View::DoiBong::bienbantrandau"
+				quidu      	"4F75E84E008B"))
 			operations 	(list Operations
 			    (object Operation "sid_chitiettrandau"
 				quid       	"4F75E9250045"
@@ -516,6 +576,11 @@
 				uid        	0)))
 		    (object Class "bangxephang"
 			quid       	"4F75E9C50007"
+			superclasses 	(list inheritance_relationship_list
+			    (object Inheritance_Relationship
+				quid       	"4F77D349015F"
+				supplier   	"Use Case View::DoiBong::DoiBong"
+				quidu      	"4F74975B0265"))
 			operations 	(list Operations
 			    (object Operation "sid_bangxephang"
 				quid       	"4F75E9EF0337"
@@ -635,7 +700,21 @@
 			quid       	"4F74988702E6"
 			exportControl 	"Public"
 			logical_models 	(list unit_reference_list)
-			logical_presentations 	(list unit_reference_list)))
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "Check lai xem giua trong tai va giam sat tran dau co quan he nhu nao? co can tach ra bang gi hok?"
+			quid       	"4F77D62C02D5"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			logical_presentations 	(list unit_reference_list
+			    (object UseCaseDiagram "Main"
+				quid       	"4F77D6500386"
+				title      	"Main"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list)))))
 		logical_presentations 	(list unit_reference_list
 		    (object UseCaseDiagram "Main"
 			quid       	"4F7497210132"
@@ -644,7 +723,7 @@
 			max_height 	28350
 			max_width  	21600
 			origin_x   	0
-			origin_y   	462
+			origin_y   	1288
 			items      	(list diagram_item_list
 			    (object ClassView "Class" "Use Case View::DoiBong::DoiBong" @1
 				ShowCompartmentStereotypes 	TRUE
@@ -688,7 +767,7 @@
 				    fill_color 	13434879
 				    anchor     	2
 				    nlines     	20
-				    max_width  	634
+				    max_width  	637
 				    justify    	1)
 				width      	654
 				height     	1086
@@ -710,10 +789,10 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@2
-				    location   	(933, 316)
+				    location   	(925, 291)
 				    fill_color 	13434879
 				    nlines     	1
-				    max_width  	278
+				    max_width  	294
 				    justify    	0
 				    label      	"CauThu")
 				icon_style 	"Icon"
@@ -722,7 +801,7 @@
 				quidu      	"4F749893000B"
 				compartment 	(object Compartment
 				    Parent_View 	@2
-				    location   	(933, 377)
+				    location   	(925, 352)
 				    font       	(object Font
 					size       	10
 					face       	"Arial"
@@ -735,11 +814,11 @@
 				    icon_style 	"Icon"
 				    fill_color 	13434879
 				    anchor     	2
-				    nlines     	13
-				    max_width  	275
+				    nlines     	14
+				    max_width  	300
 				    justify    	1)
-				width      	296
-				height     	736
+				width      	312
+				height     	786
 				annotation 	8
 				autoResize 	TRUE)
 			    (object ClassView "Class" "Use Case View::DoiBong::DonViChuQuan" @3
@@ -784,7 +863,7 @@
 				    fill_color 	13434879
 				    anchor     	2
 				    nlines     	8
-				    max_width  	344
+				    max_width  	350
 				    justify    	1)
 				width      	364
 				height     	486
@@ -832,7 +911,7 @@
 				    fill_color 	13434879
 				    anchor     	2
 				    nlines     	9
-				    max_width  	322
+				    max_width  	331
 				    justify    	1)
 				width      	342
 				height     	536
@@ -880,7 +959,7 @@
 				    fill_color 	13434879
 				    anchor     	2
 				    nlines     	12
-				    max_width  	428
+				    max_width  	434
 				    justify    	1)
 				width      	448
 				height     	686
@@ -928,7 +1007,7 @@
 				    fill_color 	13434879
 				    anchor     	2
 				    nlines     	10
-				    max_width  	363
+				    max_width  	368
 				    justify    	1)
 				width      	384
 				height     	586
@@ -1072,7 +1151,7 @@
 				    fill_color 	13434879
 				    anchor     	2
 				    nlines     	14
-				    max_width  	394
+				    max_width  	400
 				    justify    	1)
 				width      	414
 				height     	786
@@ -1120,7 +1199,7 @@
 				    fill_color 	13434879
 				    anchor     	2
 				    nlines     	5
-				    max_width  	278
+				    max_width  	287
 				    justify    	1)
 				width      	298
 				height     	336
@@ -1173,7 +1252,134 @@
 				width      	294
 				height     	286
 				annotation 	8
-				autoResize 	TRUE))))))
+				autoResize 	TRUE)
+			    (object InheritView "" @12
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77CE2901A7"
+				client     	@2
+				supplier   	@1
+				vertices   	(list Points
+				    (915, 672)
+				    (791, 672))
+				line_style 	0)
+			    (object InheritView "" @13
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77CFE3036D"
+				client     	@1
+				supplier   	@3
+				vertices   	(list Points
+				    (791, 326)
+				    (1072, 31)
+				    (1307, 348))
+				line_style 	0)
+			    (object InheritView "" @14
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D1F001CD"
+				client     	@7
+				supplier   	@8
+				vertices   	(list Points
+				    (2222, 727)
+				    (2320, 761))
+				line_style 	0)
+			    (object InheritView "" @15
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D1F40346"
+				client     	@7
+				supplier   	@5
+				vertices   	(list Points
+				    (1816, 849)
+				    (1152, 1494))
+				line_style 	0)
+			    (object InheritView "" @16
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D33401DB"
+				client     	@5
+				supplier   	@1
+				vertices   	(list Points
+				    (774, 1368)
+				    (705, 1215))
+				line_style 	0)
+			    (object InheritView "" @17
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D33C0144"
+				client     	@6
+				supplier   	@5
+				vertices   	(list Points
+				    (1503, 1735)
+				    (1152, 1721))
+				line_style 	0)
+			    (object InheritView "" @18
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D34100AE"
+				client     	@6
+				supplier   	@1
+				vertices   	(list Points
+				    (1503, 1576)
+				    (791, 956))
+				line_style 	0)
+			    (object InheritView "" @19
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D349015F"
+				client     	@9
+				supplier   	@1
+				vertices   	(list Points
+				    (2096, 1595)
+				    (791, 856))
+				line_style 	0)
+			    (object InheritView "" @20
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D32D02F3"
+				client     	@4
+				supplier   	@1
+				vertices   	(list Points
+				    (332, 1459)
+				    (373, 1215))
+				line_style 	0)
+			    (object InheritView "" @21
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"4F77D37B039D"
+				client     	@4
+				supplier   	@10
+				vertices   	(list Points
+				    (459, 1816)
+				    (1631, 2431)
+				    (2650, 1634))
+				line_style 	0)
+			    (object CategoryView "Use Case View::DoiBong::Check lai xem giua trong tai va giam sat tran dau co quan he nhu nao? co can tach ra bang gi hok?" @22
+				location   	(1024, 2192)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@22
+				    location   	(559, 2108)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	930
+				    justify    	0
+				    label      	"Check lai xem giua trong tai va giam sat tran dau co quan he nhu nao? co can tach ra bang gi hok?")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4F77D62C02D5"
+				width      	942
+				height     	180))))))
 	logical_presentations 	(list unit_reference_list
 	    (object UseCaseDiagram "Main"
 		quid       	"39C9261001B7"
@@ -1184,7 +1390,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Use Case View::DoiBong" @12
+		    (object CategoryView "Use Case View::DoiBong" @23
 			location   	(736, 496)
 			font       	(object Font
 			    size       	10
@@ -1196,7 +1402,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@12
+			    Parent_View 	@23
 			    location   	(517, 283)
 			    fill_color 	13434879
 			    nlines     	2
@@ -1241,7 +1447,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Logical View::java" @13
+		    (object CategoryView "Logical View::java" @24
 			location   	(208, 272)
 			font       	(object Font
 			    size       	10
@@ -1253,7 +1459,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@13
+			    Parent_View 	@24
 			    location   	(64, 188)
 			    nlines     	2
 			    max_width  	288
@@ -1265,7 +1471,7 @@
 			quidu      	"39C92661003B"
 			width      	300
 			height     	180)
-		    (object CategoryView "Logical View::javax" @14
+		    (object CategoryView "Logical View::javax" @25
 			location   	(656, 272)
 			font       	(object Font
 			    size       	10
@@ -1277,7 +1483,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@14
+			    Parent_View 	@25
 			    location   	(512, 188)
 			    nlines     	2
 			    max_width  	288
@@ -1289,7 +1495,7 @@
 			quidu      	"39C926610018"
 			width      	300
 			height     	180)
-		    (object CategoryView "Logical View::org" @15
+		    (object CategoryView "Logical View::org" @26
 			location   	(1104, 272)
 			font       	(object Font
 			    size       	10
@@ -1301,7 +1507,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@15
+			    Parent_View 	@26
 			    location   	(960, 188)
 			    nlines     	2
 			    max_width  	288
@@ -1322,7 +1528,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object NoteView @16
+		    (object NoteView @27
 			location   	(224, 624)
 			font       	(object Font
 			    size       	10
@@ -1337,7 +1543,7 @@
 			fill_color 	12632256
 			width      	300
 			height     	132)
-		    (object NoteView @17
+		    (object NoteView @28
 			location   	(704, 624)
 			font       	(object Font
 			    size       	10
@@ -1352,7 +1558,7 @@
 			fill_color 	8421631
 			width      	300
 			height     	132)
-		    (object NoteView @18
+		    (object NoteView @29
 			location   	(1200, 624)
 			font       	(object Font
 			    size       	10
@@ -1367,7 +1573,7 @@
 			fill_color 	12615680
 			width      	300
 			height     	132)
-		    (object NoteView @19
+		    (object NoteView @30
 			location   	(1664, 624)
 			font       	(object Font
 			    size       	10
@@ -1382,7 +1588,7 @@
 			fill_color 	16777215
 			width      	300
 			height     	132)
-		    (object Label @20
+		    (object Label @31
 			location   	(81, 369)
 			font       	(object Font
 			    size       	12
@@ -1397,7 +1603,7 @@
 			max_width  	1163
 			justify    	1
 			label      	"J2EE: Java 2 Platform, Enterprise Edition - v 1.2.1")
-		    (object Label @21
+		    (object Label @32
 			location   	(96, 608)
 			font       	(object Font
 			    size       	10
@@ -1412,7 +1618,7 @@
 			max_width  	268
 			justify    	1
 			label      	"Abstract Class")
-		    (object Label @22
+		    (object Label @33
 			location   	(592, 608)
 			font       	(object Font
 			    size       	10
@@ -1427,7 +1633,7 @@
 			max_width  	225
 			justify    	1
 			label      	"Final Class")
-		    (object Label @23
+		    (object Label @34
 			location   	(1104, 608)
 			font       	(object Font
 			    size       	10
@@ -1442,7 +1648,7 @@
 			max_width  	206
 			justify    	1
 			label      	"Interface")
-		    (object Label @24
+		    (object Label @35
 			location   	(1552, 608)
 			font       	(object Font
 			    size       	10
