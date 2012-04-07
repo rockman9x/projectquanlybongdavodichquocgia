@@ -691,6 +691,88 @@
 				concurrency 	"Sequential"
 				opExportControl 	"Public"
 				uid        	0)))
+		    (object Class "Loaicauthu"
+			quid       	"4F802F61002C"
+			operations 	(list Operations
+			    (object Operation "maloaicauthu"
+				quid       	"4F802F8301C5"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "tenloaicauthu"
+				quid       	"4F802F8800C8"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)))
+		    (object Class "Thamso"
+			quid       	"4F802FC40065"
+			operations 	(list Operations
+			    (object Operation "tuoitoithieu"
+				quid       	"4F802FCF0095"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "tuoitoida"
+				quid       	"4F802FD6025C"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "socauthutoithieu"
+				quid       	"4F802FE902D3"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "socauthutoida"
+				quid       	"4F802FEE03DD"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "socauthunuocngoaitoida"
+				quid       	"4F803003013D"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)))
+		    (object Class "vongdau"
+			quid       	"4F8030A60279"
+			operations 	(list Operations
+			    (object Operation "mavongdau"
+				quid       	"4F8030B102E4"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "tenvongdau"
+				quid       	"4F8030B5013A"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)))
+		    (object Class "Trandau"
+			quid       	"4F80310100A1"
+			operations 	(list Operations
+			    (object Operation "matrandau"
+				quid       	"4F8031090052"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "mavongdau"
+				quid       	"4F80310B034C"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "madoi1"
+				quid       	"4F80311202FF"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "madoi2"
+				quid       	"4F80311A031D"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)
+			    (object Operation "ngaygio"
+				quid       	"4F80311E0028"
+				concurrency 	"Sequential"
+				opExportControl 	"Public"
+				uid        	0)))
 		    (object Class_Category "jhgjhg"
 			quid       	"4F74974E0199"
 			exportControl 	"Public"
@@ -723,7 +805,7 @@
 			max_height 	28350
 			max_width  	21600
 			origin_x   	0
-			origin_y   	1188
+			origin_y   	1406
 			items      	(list diagram_item_list
 			    (object ClassView "Class" "Use Case View::DoiBong::DoiBong" @1
 				ShowCompartmentStereotypes 	TRUE
@@ -1379,7 +1461,199 @@
 				fill_color 	13434879
 				quidu      	"4F77D62C02D5"
 				width      	942
-				height     	180))))))
+				height     	180)
+			    (object ClassView "Class" "Use Case View::DoiBong::Loaicauthu" @23
+				ShowCompartmentStereotypes 	TRUE
+				IncludeAttribute 	TRUE
+				IncludeOperation 	TRUE
+				location   	(1968, 144)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@23
+				    location   	(1807, 38)
+				    fill_color 	13434879
+				    nlines     	1
+				    max_width  	322
+				    justify    	0
+				    label      	"Loaicauthu")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4F802F61002C"
+				compartment 	(object Compartment
+				    Parent_View 	@23
+				    location   	(1807, 99)
+				    font       	(object Font
+					size       	10
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	3
+				    max_width  	325
+				    justify    	1)
+				width      	340
+				height     	236
+				annotation 	8
+				autoResize 	TRUE)
+			    (object ClassView "Class" "Use Case View::DoiBong::Thamso" @24
+				ShowCompartmentStereotypes 	TRUE
+				IncludeAttribute 	TRUE
+				IncludeOperation 	TRUE
+				location   	(2448, 192)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@24
+				    location   	(2189, 11)
+				    fill_color 	13434879
+				    nlines     	1
+				    max_width  	518
+				    justify    	0
+				    label      	"Thamso")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4F802FC40065"
+				compartment 	(object Compartment
+				    Parent_View 	@24
+				    location   	(2189, 72)
+				    font       	(object Font
+					size       	10
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	6
+				    max_width  	521
+				    justify    	1)
+				width      	536
+				height     	386
+				annotation 	8
+				autoResize 	TRUE)
+			    (object ClassView "Class" "Use Case View::DoiBong::vongdau" @25
+				ShowCompartmentStereotypes 	TRUE
+				IncludeAttribute 	TRUE
+				IncludeOperation 	TRUE
+				location   	(2928, 944)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@25
+				    location   	(2786, 838)
+				    fill_color 	13434879
+				    nlines     	1
+				    max_width  	284
+				    justify    	0
+				    label      	"vongdau")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4F8030A60279"
+				compartment 	(object Compartment
+				    Parent_View 	@25
+				    location   	(2786, 899)
+				    font       	(object Font
+					size       	10
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	3
+				    max_width  	287
+				    justify    	1)
+				width      	302
+				height     	236
+				annotation 	8
+				autoResize 	TRUE)
+			    (object ClassView "Class" "Use Case View::DoiBong::Trandau" @26
+				ShowCompartmentStereotypes 	TRUE
+				IncludeAttribute 	TRUE
+				IncludeOperation 	TRUE
+				location   	(3280, 832)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@26
+				    location   	(3138, 651)
+				    fill_color 	13434879
+				    nlines     	1
+				    max_width  	284
+				    justify    	0
+				    label      	"Trandau")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4F80310100A1"
+				compartment 	(object Compartment
+				    Parent_View 	@26
+				    location   	(3138, 712)
+				    font       	(object Font
+					size       	10
+					face       	"Arial"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    icon_style 	"Icon"
+				    fill_color 	13434879
+				    anchor     	2
+				    nlines     	6
+				    max_width  	287
+				    justify    	1)
+				width      	302
+				height     	386
+				annotation 	8
+				autoResize 	TRUE))))))
 	logical_presentations 	(list unit_reference_list
 	    (object UseCaseDiagram "Main"
 		quid       	"39C9261001B7"
@@ -1390,7 +1664,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Use Case View::DoiBong" @23
+		    (object CategoryView "Use Case View::DoiBong" @27
 			location   	(736, 496)
 			font       	(object Font
 			    size       	10
@@ -1402,7 +1676,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@23
+			    Parent_View 	@27
 			    location   	(517, 283)
 			    fill_color 	13434879
 			    nlines     	2
@@ -1447,7 +1721,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Logical View::java" @24
+		    (object CategoryView "Logical View::java" @28
 			location   	(208, 272)
 			font       	(object Font
 			    size       	10
@@ -1459,7 +1733,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@24
+			    Parent_View 	@28
 			    location   	(64, 188)
 			    nlines     	2
 			    max_width  	288
@@ -1471,7 +1745,7 @@
 			quidu      	"39C92661003B"
 			width      	300
 			height     	180)
-		    (object CategoryView "Logical View::javax" @25
+		    (object CategoryView "Logical View::javax" @29
 			location   	(656, 272)
 			font       	(object Font
 			    size       	10
@@ -1483,7 +1757,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@25
+			    Parent_View 	@29
 			    location   	(512, 188)
 			    nlines     	2
 			    max_width  	288
@@ -1495,7 +1769,7 @@
 			quidu      	"39C926610018"
 			width      	300
 			height     	180)
-		    (object CategoryView "Logical View::org" @26
+		    (object CategoryView "Logical View::org" @30
 			location   	(1104, 272)
 			font       	(object Font
 			    size       	10
@@ -1507,7 +1781,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@26
+			    Parent_View 	@30
 			    location   	(960, 188)
 			    nlines     	2
 			    max_width  	288
@@ -1528,7 +1802,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object NoteView @27
+		    (object NoteView @31
 			location   	(224, 624)
 			font       	(object Font
 			    size       	10
@@ -1543,7 +1817,7 @@
 			fill_color 	12632256
 			width      	300
 			height     	132)
-		    (object NoteView @28
+		    (object NoteView @32
 			location   	(704, 624)
 			font       	(object Font
 			    size       	10
@@ -1558,7 +1832,7 @@
 			fill_color 	8421631
 			width      	300
 			height     	132)
-		    (object NoteView @29
+		    (object NoteView @33
 			location   	(1200, 624)
 			font       	(object Font
 			    size       	10
@@ -1573,7 +1847,7 @@
 			fill_color 	12615680
 			width      	300
 			height     	132)
-		    (object NoteView @30
+		    (object NoteView @34
 			location   	(1664, 624)
 			font       	(object Font
 			    size       	10
@@ -1588,7 +1862,7 @@
 			fill_color 	16777215
 			width      	300
 			height     	132)
-		    (object Label @31
+		    (object Label @35
 			location   	(81, 369)
 			font       	(object Font
 			    size       	12
@@ -1603,7 +1877,7 @@
 			max_width  	1163
 			justify    	1
 			label      	"J2EE: Java 2 Platform, Enterprise Edition - v 1.2.1")
-		    (object Label @32
+		    (object Label @36
 			location   	(96, 608)
 			font       	(object Font
 			    size       	10
@@ -1618,7 +1892,7 @@
 			max_width  	268
 			justify    	1
 			label      	"Abstract Class")
-		    (object Label @33
+		    (object Label @37
 			location   	(592, 608)
 			font       	(object Font
 			    size       	10
@@ -1633,7 +1907,7 @@
 			max_width  	225
 			justify    	1
 			label      	"Final Class")
-		    (object Label @34
+		    (object Label @38
 			location   	(1104, 608)
 			font       	(object Font
 			    size       	10
@@ -1648,7 +1922,7 @@
 			max_width  	206
 			justify    	1
 			label      	"Interface")
-		    (object Label @35
+		    (object Label @39
 			location   	(1552, 608)
 			font       	(object Font
 			    size       	10

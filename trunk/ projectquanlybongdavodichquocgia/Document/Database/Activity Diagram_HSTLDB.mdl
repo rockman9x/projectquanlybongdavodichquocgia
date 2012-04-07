@@ -11,7 +11,43 @@
 	(object Attribute
 	    tool       	"Java"
 	    name       	"IDE"
-	    value      	"Internal Editor"))
+	    value      	"Internal Editor")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagName1"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagText1"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagApply1"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagName2"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagText2"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagApply2"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagName3"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagText3"
+	    value      	"")
+	(object Attribute
+	    tool       	"Java"
+	    name       	"UserDefineTagApply3"
+	    value      	""))
     quid       	"4F7F8F8D03BD"
     enforceClosureAutoLoad 	FALSE
     defaults   	(object defaults
@@ -73,6 +109,26 @@
 		    type       	"Normal")
 		(object State "He thong yeu cau cung cap cac thong tin can thiet"
 		    quid       	"4F7F902301F3"
+		    type       	"Normal")
+		(object State "Nguoi dung cung cap cac thong tin can thiet"
+		    quid       	"4F7FDA4C029D"
+		    type       	"Normal")
+		(object State "Nguoi dung de nghi tiep nhan thong tin cac doi dang ky moi"
+		    quid       	"4F7FDA6C0390"
+		    type       	"Normal")
+		(object State "He thong thuc hien dang ky ho so doi bong xuong DB"
+		    quid       	"4F7FDA8400CB"
+		    type       	"Normal")
+		(object Decision "$UNNAMED$2"
+		    quid       	"4F7FE21B0376")
+		(object State "He thong thong bao nhung thong tin khong hop le."
+		    quid       	"4F7FE22E029C"
+		    type       	"Normal")
+		(object State "NewState"
+		    quid       	"4F7FE23E036B"
+		    type       	"Normal")
+		(object State "He thong xuat ra thong bao ho so dang ky thanh cong"
+		    quid       	"4F7FE3780065"
 		    type       	"Normal"))
 	    partitions 	(list Partitions)
 	    objects    	(list Objects)
@@ -92,7 +148,87 @@
 		    client     	"Logical View::State/Activity Model::Nguoi dung yeu cau dang ky thong tin thanh lap doi bong"
 		    client_quidu 	"4F7F8FC102E6"
 		    sendEvent  	(object sendEvent
-			quid       	"4F7F903503DF")))
+			quid       	"4F7F903503DF"))
+		(object State_Transition
+		    quid       	"4F7FE1CC027F"
+		    supplier   	"Logical View::State/Activity Model::Nguoi dung de nghi tiep nhan thong tin cac doi dang ky moi"
+		    supplier_quidu 	"4F7FDA6C0390"
+		    client     	"Logical View::State/Activity Model::He thong yeu cau cung cap cac thong tin can thiet"
+		    client_quidu 	"4F7F902301F3"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE1CC0282"))
+		(object State_Transition
+		    quid       	"4F7FE20C00A9"
+		    supplier   	"Logical View::State/Activity Model::Nguoi dung cung cap cac thong tin can thiet"
+		    supplier_quidu 	"4F7FDA4C029D"
+		    client     	"Logical View::State/Activity Model::He thong yeu cau cung cap cac thong tin can thiet"
+		    client_quidu 	"4F7F902301F3"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE20C00AC"))
+		(object State_Transition
+		    quid       	"4F7FE214018D"
+		    supplier   	"Logical View::State/Activity Model::Nguoi dung de nghi tiep nhan thong tin cac doi dang ky moi"
+		    supplier_quidu 	"4F7FDA6C0390"
+		    client     	"Logical View::State/Activity Model::Nguoi dung cung cap cac thong tin can thiet"
+		    client_quidu 	"4F7FDA4C029D"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE2140190"))
+		(object State_Transition
+		    quid       	"4F7FE21F0052"
+		    supplier   	"$UNNAMED$2"
+		    supplier_quidu 	"4F7FE21B0376"
+		    client     	"Logical View::State/Activity Model::Nguoi dung de nghi tiep nhan thong tin cac doi dang ky moi"
+		    client_quidu 	"4F7FDA6C0390"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE21F0055"))
+		(object State_Transition
+		    quid       	"4F7FE25D00C6"
+		    supplier   	"Logical View::State/Activity Model::He thong yeu cau cung cap cac thong tin can thiet"
+		    supplier_quidu 	"4F7F902301F3"
+		    client     	"Logical View::State/Activity Model::He thong thong bao nhung thong tin khong hop le."
+		    client_quidu 	"4F7FE22E029C"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE25D00C9"))
+		(object State_Transition
+		    quid       	"4F7FE2B90310"
+		    supplier   	"Logical View::State/Activity Model::He thong thong bao nhung thong tin khong hop le."
+		    supplier_quidu 	"4F7FE22E029C"
+		    client     	"$UNNAMED$2"
+		    client_quidu 	"4F7FE21B0376"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE2B90313"))
+		(object State_Transition
+		    quid       	"4F7FE30901AB"
+		    supplier   	"Logical View::State/Activity Model::He thong thuc hien dang ky ho so doi bong xuong DB"
+		    supplier_quidu 	"4F7FDA8400CB"
+		    client     	"$UNNAMED$2"
+		    client_quidu 	"4F7FE21B0376"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE30901AE"))
+		(object State_Transition
+		    quid       	"4F7FE3620291"
+		    supplier   	"$UNNAMED$1"
+		    supplier_quidu 	"4F7F8FBE0336"
+		    client     	"Logical View::State/Activity Model::He thong thuc hien dang ky ho so doi bong xuong DB"
+		    client_quidu 	"4F7FDA8400CB"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE3620294"))
+		(object State_Transition
+		    quid       	"4F7FE38C00ED"
+		    supplier   	"$UNNAMED$1"
+		    supplier_quidu 	"4F7F8FBE0336"
+		    client     	"Logical View::State/Activity Model::He thong xuat ra thong bao ho so dang ky thanh cong"
+		    client_quidu 	"4F7FE3780065"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE38C00F0"))
+		(object State_Transition
+		    quid       	"4F7FE39801D2"
+		    supplier   	"Logical View::State/Activity Model::He thong xuat ra thong bao ho so dang ky thanh cong"
+		    supplier_quidu 	"4F7FE3780065"
+		    client     	"Logical View::State/Activity Model::He thong thuc hien dang ky ho so doi bong xuong DB"
+		    client_quidu 	"4F7FDA8400CB"
+		    sendEvent  	(object sendEvent
+			quid       	"4F7FE39801D5")))
 	    objectflows 	(list objectflow_list)
 	    statediagrams 	(list StateDiagrams
 		(object ActivityDiagram "HSTLDB"
@@ -116,7 +252,7 @@
 			    autoResize 	TRUE)
 			(object StateView "EndState" "$UNNAMED$1" @3
 			    Parent_View 	@1
-			    location   	(2688, 1408)
+			    location   	(2800, 1022)
 			    icon_style 	"Icon"
 			    line_color 	3342489
 			    quidu      	"4F7F8FBE0336"
@@ -197,6 +333,277 @@
 			    vertices   	(list Points
 				(400, 563)
 				(400, 717))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object StateView "Normal" "Nguoi dung cung cap cac thong tin can thiet" @8
+			    Parent_View 	@1
+			    location   	(395, 1056)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    label      	(object ItemLabel
+				Parent_View 	@8
+				location   	(395, 1045)
+				fill_color 	13434879
+				anchor_loc 	1
+				nlines     	2
+				max_width  	418
+				justify    	0
+				label      	"Nguoi dung cung cap cac thong tin can thiet")
+			    icon_style 	"Icon"
+			    line_color 	3342489
+			    fill_color 	13434879
+			    quidu      	"4F7FDA4C029D"
+			    width      	514
+			    height     	134
+			    autoResize 	TRUE)
+			(object TransView "" @9
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE20C00A9"
+			    client     	@6
+			    supplier   	@8
+			    vertices   	(list Points
+				(398, 850)
+				(396, 989))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object StateView "Normal" "Nguoi dung de nghi tiep nhan thong tin cac doi dang ky moi" @10
+			    Parent_View 	@1
+			    location   	(394, 1344)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    label      	(object ItemLabel
+				Parent_View 	@10
+				location   	(394, 1333)
+				fill_color 	13434879
+				anchor_loc 	1
+				nlines     	2
+				max_width  	570
+				justify    	0
+				label      	"Nguoi dung de nghi tiep nhan thong tin cac doi dang ky moi")
+			    icon_style 	"Icon"
+			    line_color 	3342489
+			    fill_color 	13434879
+			    quidu      	"4F7FDA6C0390"
+			    width      	666
+			    height     	134
+			    autoResize 	TRUE)
+			(object TransView "" @11
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE214018D"
+			    client     	@8
+			    supplier   	@10
+			    vertices   	(list Points
+				(394, 1122)
+				(394, 1277))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object StateView "Normal" "He thong thuc hien dang ky ho so doi bong xuong DB" @12
+			    Parent_View 	@1
+			    location   	(1568, 1451)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    label      	(object ItemLabel
+				Parent_View 	@12
+				location   	(1568, 1440)
+				fill_color 	13434879
+				anchor_loc 	1
+				nlines     	2
+				max_width  	520
+				justify    	0
+				label      	"He thong thuc hien dang ky ho so doi bong xuong DB")
+			    icon_style 	"Icon"
+			    line_color 	3342489
+			    fill_color 	13434879
+			    quidu      	"4F7FDA8400CB"
+			    width      	616
+			    height     	134
+			    autoResize 	TRUE)
+			(object DecisionView "$UNNAMED$2" @13
+			    Parent_View 	@1
+			    location   	(1023, 1344)
+			    icon_style 	"Icon"
+			    line_color 	3342489
+			    fill_color 	13434879
+			    quidu      	"4F7FE21B0376"
+			    autoResize 	TRUE)
+			(object TransView "" @14
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE21F0052"
+			    client     	@10
+			    supplier   	@13
+			    vertices   	(list Points
+				(727, 1344)
+				(948, 1344))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object TransView "" @15
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE30901AB"
+			    client     	@13
+			    supplier   	@12
+			    vertices   	(list Points
+				(1023, 1381)
+				(1022, 1453)
+				(1260, 1452))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object StateView "Normal" "He thong thong bao nhung thong tin khong hop le." @16
+			    Parent_View 	@1
+			    location   	(1440, 791)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    label      	(object ItemLabel
+				Parent_View 	@16
+				location   	(1440, 780)
+				fill_color 	13434879
+				anchor_loc 	1
+				nlines     	2
+				max_width  	500
+				justify    	0
+				label      	"He thong thong bao nhung thong tin khong hop le.")
+			    icon_style 	"Icon"
+			    line_color 	3342489
+			    fill_color 	13434879
+			    quidu      	"4F7FE22E029C"
+			    width      	596
+			    height     	134
+			    autoResize 	TRUE)
+			(object TransView "" @17
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE25D00C6"
+			    client     	@16
+			    supplier   	@6
+			    vertices   	(list Points
+				(1142, 788)
+				(698, 786))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object TransView "" @18
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE2B90310"
+			    client     	@13
+			    supplier   	@16
+			    vertices   	(list Points
+				(1023, 1307)
+				(1022, 800)
+				(1142, 797))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object Label @19
+			    Parent_View 	@1
+			    location   	(1056, 897)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    nlines     	2
+			    max_width  	607
+			    justify    	1
+			    label      	"Thong tin nguoi dung CC khong hop le")
+			(object Label @20
+			    Parent_View 	@1
+			    location   	(881, 1519)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    nlines     	1
+			    max_width  	600
+			    justify    	1
+			    label      	"Thong tin nguoi dung CC hop le")
+			(object StateView "Normal" "He thong xuat ra thong bao ho so dang ky thanh cong" @21
+			    Parent_View 	@1
+			    location   	(2160, 1024)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    label      	(object ItemLabel
+				Parent_View 	@21
+				location   	(2160, 1013)
+				fill_color 	13434879
+				anchor_loc 	1
+				nlines     	2
+				max_width  	518
+				justify    	0
+				label      	"He thong xuat ra thong bao ho so dang ky thanh cong")
+			    icon_style 	"Icon"
+			    line_color 	3342489
+			    fill_color 	13434879
+			    quidu      	"4F7FE3780065"
+			    width      	614
+			    height     	134
+			    autoResize 	TRUE)
+			(object TransView "" @22
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE38C00ED"
+			    client     	@21
+			    supplier   	@3
+			    vertices   	(list Points
+				(2467, 1023)
+				(2758, 1022))
+			    line_style 	0
+			    x_offset   	FALSE)
+			(object TransView "" @23
+			    stereotype 	TRUE
+			    line_color 	3342489
+			    quidu      	"4F7FE39801D2"
+			    client     	@12
+			    supplier   	@21
+			    vertices   	(list Points
+				(1567, 1384)
+				(1565, 1022)
+				(1853, 1022))
 			    line_style 	0
 			    x_offset   	FALSE)))))
 	logical_presentations 	(list unit_reference_list
