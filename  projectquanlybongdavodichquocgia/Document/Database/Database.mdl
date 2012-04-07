@@ -723,7 +723,7 @@
 			max_height 	28350
 			max_width  	21600
 			origin_x   	0
-			origin_y   	1288
+			origin_y   	1188
 			items      	(list diagram_item_list
 			    (object ClassView "Class" "Use Case View::DoiBong::DoiBong" @1
 				ShowCompartmentStereotypes 	TRUE
@@ -1356,7 +1356,7 @@
 				    (2650, 1634))
 				line_style 	0)
 			    (object CategoryView "Use Case View::DoiBong::Check lai xem giua trong tai va giam sat tran dau co quan he nhu nao? co can tach ra bang gi hok?" @22
-				location   	(1024, 2192)
+				location   	(800, 2352)
 				font       	(object Font
 				    size       	10
 				    face       	"Arial"
@@ -1368,7 +1368,7 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@22
-				    location   	(559, 2108)
+				    location   	(335, 2268)
 				    fill_color 	13434879
 				    nlines     	2
 				    max_width  	930
