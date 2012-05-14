@@ -106,9 +106,9 @@
         <text>Refresh</text>
       </controlProperties>
     </control>
-    <control controlID="26" controlTypeID="com.balsamiq.mockups::DataGrid" x="390" y="235" w="819" h="197" measuredW="1017" measuredH="55" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::DataGrid" x="390" y="235" w="819" h="197" measuredW="1016" measuredH="55" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Ma%20DB%20%5E%2C%20Ten%20DB%20%5E%2C%20Chu%20Tich%20DB%20%5E%2C%20Ma%20San%20%5E%2C%20Ngay%20Thanh%20Lap%20%5E%2C%20Mau%20ao%20san%20nha%20%5E%2C%20Suc%20Chua%20%5E%2C%20Von%20dieu%20le%20%5E%2C%20Dia%20Chi%20%5E%2C%20Hang%0A04DL%2C%20NhokBoSua%2C%20Phan%20Minh%20Hai%2C%20SVD%20Thong%20Nhat%2C%2014/05/2012%2C%20Xanh%20chuoi%2C%205000%2C%201%20ty%20dong%2C%20K37%20Le%20Duc%20Tho%20-%20Go%20Vap%20-%20HCM%2C%201</text>
+        <text>Ma%20CT%20%5E%2C%20Ten%20CT%20%5E%2C%20Vi%20tri%5E%2C%20Ma%20San%20%5E%2C%20Ngay%20Thanh%20Lap%20%5E%2C%20Mau%20ao%20san%20nha%20%5E%2C%20Suc%20Chua%20%5E%2C%20Von%20dieu%20le%20%5E%2C%20Dia%20Chi%20%5E%2C%20Hang%0A04DL%2C%20NhokBoSua%2C%20Phan%20Minh%20Hai%2C%20SVD%20Thong%20Nhat%2C%2014/05/2012%2C%20Xanh%20chuoi%2C%205000%2C%201%20ty%20dong%2C%20K37%20Le%20Duc%20Tho%20-%20Go%20Vap%20-%20HCM%2C%201</text>
       </controlProperties>
     </control>
     <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="601" y="84" w="-1" h="-1" measuredW="33" measuredH="21" zOrder="22" locked="false" isInGroup="-1">

@@ -5,6 +5,9 @@
         <control controlID="6" controlTypeID="__group__" x="0" y="0" w="761" h="608" measuredW="761" measuredH="608" zOrder="0" locked="false" isInGroup="6">
           <groupChildrenDescriptors>
             <control controlID="4" controlTypeID="__group__" x="0" y="0" w="761" h="608" measuredW="761" measuredH="608" zOrder="0" locked="false" isInGroup="6">
+              <controlProperties>
+                <markup>true</markup>
+              </controlProperties>
               <groupChildrenDescriptors>
                 <control controlID="0" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="2" y="58" w="755" h="550" measuredW="200" measuredH="346" zOrder="0" locked="false" isInGroup="4">
                   <controlProperties>
@@ -37,6 +40,12 @@
                   </controlProperties>
                 </control>
               </groupChildrenDescriptors>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="1" y="423" w="198" h="185" measuredW="187" measuredH="187" zOrder="1" locked="false" isInGroup="6">
+              <controlProperties>
+                <src>./HinhAnh/Panel3.jpg</src>
+                <text>Panel</text>
+              </controlProperties>
             </control>
           </groupChildrenDescriptors>
         </control>
