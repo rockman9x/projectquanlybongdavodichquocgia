@@ -1,85 +1,81 @@
-<mockup version="1.0" skin="sketch" measuredW="912" measuredH="383" mockupW="522" mockupH="378">
+<mockup version="1.0" skin="sketch" measuredW="977" measuredH="383" mockupW="611" mockupH="369">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="390" y="5" w="522" h="378" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::TabBar" x="367" y="14" w="610" h="369" measuredW="518" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Ghi%20nhan%20ket%20qua%20tran%20dau</text>
+        <text>Ket%20Qua%20Thi%20Dau%2C%20Danh%20Sach%20CT%20Ghi%20B%E0n%2C%20Danh%20Sach%20CT%20Bi%20Phat%2C%20Xep%20Hang</text>
       </controlProperties>
     </control>
-    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="436" y="39" w="71" h="21" measuredW="71" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Ma%20tran%20dau</text>
-      </controlProperties>
-    </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="668" y="39" w="74" h="21" measuredW="74" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Ma%20doi%20bong</text>
-      </controlProperties>
-    </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="418" y="125" w="98" h="21" measuredW="91" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Ket%20qua%20thi%20dau</text>
-      </controlProperties>
-    </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="474" y="165" w="57" h="27" measuredW="57" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::HRule" x="366" y="169" w="610" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Button" x="449" y="185" w="67" h="27" measuredW="57" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Them</text>
       </controlProperties>
     </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="577" y="165" w="47" h="27" measuredW="47" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Button" x="570" y="185" w="55" h="27" measuredW="47" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Xoa</text>
       </controlProperties>
     </control>
-    <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="677" y="165" w="78" h="27" measuredW="78" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Button" x="683" y="185" w="91" h="27" measuredW="78" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Cap%20Nhat</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="819" y="165" w="65" h="27" measuredW="65" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Button" x="829" y="185" w="76" h="27" measuredW="65" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Refesh</text>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::HRule" x="390" y="153" w="522" h="-1" measuredW="100" measuredH="5" zOrder="8" locked="false" isInGroup="-1"/>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::DataGrid" x="401" y="209" w="501" h="144" measuredW="318" measuredH="85" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="380" y="51" w="83" h="21" measuredW="71" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>M%E3%20TrDau%20%5E%2C%20MaDB%20%5E%2C%20So%20BT%2C%20Sothe%2C%20Ketqua%20%5E%0ATD01%2C%2006TH%2C%202%2C%202%2C%20Thua%0ATD01%2C%2007ND%2C%203%2C%202%2C%20Hoa%0ATD02%2C%2006TH%2C%202%2C%201%2C%20Hoa</text>
+        <text>Ma%20tran%20dau</text>
       </controlProperties>
     </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::ComboBox" x="520" y="39" w="119" h="-1" measuredW="115" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="684" y="51" w="86" h="21" measuredW="55" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%3CChon%20MaTD%3E</text>
+        <text>Doi%20bong</text>
       </controlProperties>
     </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::ComboBox" x="520" y="124" w="119" h="-1" measuredW="68" measuredH="23" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="380" y="90" w="85" h="19" measuredW="80" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <state>closed</state>
-        <text>Thang%0AThua%0AHoa</text>
+        <text>So%20ban%20thang</text>
       </controlProperties>
     </control>
-    <control controlID="12" controlTypeID="com.balsamiq.mockups::ComboBox" x="761" y="38" w="119" h="-1" measuredW="114" measuredH="23" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::ComboBox" x="480" y="51" w="161" h="-1" measuredW="126" measuredH="23" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%3CChon%20MaDB%3E</text>
+        <text>%3CChon%20doi%20bong%3E</text>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="422" y="79" w="86" h="21" measuredW="86" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::ComboBox" x="784" y="50" w="160" h="-1" measuredW="102" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>So%20Ban%20Thang</text>
+        <text>%3CChon%20San%3E</text>
       </controlProperties>
     </control>
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="668" y="79" w="74" h="21" measuredW="73" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::DataGrid" x="373" y="224" w="596" h="151" measuredW="435" measuredH="115" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>M%E3%20TrDau%2C%20TenDB%2C%20Ghi%20Ban%2C%20So%20The%2C%20Ket%20Qua%0ATD00%2C%20XM%20C%F4ng%20Thanh%20-%20Thanh%20Ho%E1%2C%202%2C%202%2C%20Thang%0ATD00%2C%20Mikado%20-%20Khanh%20Hoa%2C%203%2C%201%2C%20Thua%0ATD01%2C%20Thong%20Nhat%20-%20DakLak%2C%203%2C%200%2C%20Hoa</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::TextInput" x="480" y="92" w="161" h="-1" measuredW="79" measuredH="27" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="683" y="88" w="85" h="19" measuredW="73" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <text>So%20the%20phat</text>
       </controlProperties>
     </control>
-    <control controlID="17" controlTypeID="com.balsamiq.mockups::TextInput" x="522" y="77" w="117" h="-1" measuredW="79" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::ComboBox" x="783" y="86" w="161" h="-1" measuredW="126" measuredH="23" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
-        <text/>
+        <text>%3CChon%20doi%20bong%3E</text>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::TextInput" x="761" y="76" w="117" h="-1" measuredW="79" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="378" y="138" w="85" h="19" measuredW="91" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
-        <text/>
+        <text>Ket%20qua%20thi%20dau</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::ComboBox" x="480" y="136" w="161" h="-1" measuredW="84" measuredH="23" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>%3CThang%3E%0A%3CHoa%3E%0A%3CThua%3E</text>
       </controlProperties>
     </control>
   </controls>

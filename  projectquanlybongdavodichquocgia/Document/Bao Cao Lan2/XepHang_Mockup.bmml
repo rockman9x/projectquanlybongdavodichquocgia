@@ -1,20 +1,21 @@
-<mockup version="1.0" skin="sketch" measuredW="879" measuredH="300" mockupW="450" mockupH="233">
+<mockup version="1.0" skin="sketch" measuredW="939" measuredH="311" mockupW="527" mockupH="269">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="450" y="149" w="-1" h="-1" measuredW="409" measuredH="115" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="420" y="145" w="512" h="151" measuredW="518" measuredH="145" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Ma%20DoB%2C%20Ten%20DB%2C%20%20Masan%2C%20DiaChi%2C%20Tongdiem%0A06TH%2C%20XM%20Thanh%20Hoa%2C%20TH_04%2C%20Tinh%20Thanh%20Hoa%2C%203%0A07ND%2C%20Micado%20Rota%2C%20ND_08%2C%20Tinh%20Nam%20Dinh%2C%20%201%0A08HN%2C%20T%26T%20Ha%20Noi%2C%20HN_11%2C%20Thanh%20Pho%20Ha%20Noi%2C%200</text>
+        <text>Hang%2C%20Ma%20DB%2C%20Ten%20DB%2C%20%20Tongdiem%2C%20So%20ban%20ghi%20duoc%2C%20So%20ban%20bi%20lot%20luoi%0A1%2C%2006TH%2C%20XM%20Thanh%20Hoa%2C%203%2C%205%2C%200%0A2%2C%2007ND%2C%20Micado%20Rota%2C%203%2C%203%2C%202%0A3%2C%2008HN%2C%20T%26T%20Ha%20Noi%2C%201%2C%204%2C%2056%0A4%2C%2009DL%2C%20Thong%20Nhat%20DakLak%2C%200%2C%200%2C%205</text>
       </controlProperties>
     </control>
-    <control controlID="1" controlTypeID="com.balsamiq.mockups::TitleWindow" x="429" y="67" w="450" h="233" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Xep%20Hang</text>
-      </controlProperties>
-    </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="512" y="103" w="-1" h="-1" measuredW="299" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="536" y="85" w="-1" h="-1" measuredW="299" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <size>16</size>
         <text>Bang%20xep%20hang%20cac%20doi%20bong%20trong%20mua%20giai</text>
       </controlProperties>
     </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TabBar" x="413" y="42" w="526" h="269" measuredW="518" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ket%20Qua%20Thi%20Dau%2C%20Danh%20Sach%20CT%20Ghi%20B%E0n%2C%20Danh%20Sach%20CT%20Bi%20Phat%2C%20Xep%20Hang</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::HRule" x="412" y="117" w="522" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="-1"/>
   </controls>
 </mockup>

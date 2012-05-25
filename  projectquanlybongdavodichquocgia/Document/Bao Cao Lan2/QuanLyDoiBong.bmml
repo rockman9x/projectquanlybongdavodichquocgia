@@ -1,0 +1,45 @@
+<mockup version="1.0" skin="sketch" measuredW="939" measuredH="398" mockupW="526" mockupH="356">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="413" y="42" w="526" h="356" measuredW="270" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Doi%20Bong%2C%20San%2C%20Ban%20Huan%20Luyen</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="436" y="90" w="-1" h="-1" measuredW="168" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>%3E%3E%20Danh%20sach%20doi%20bong</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="430" y="111" w="494" h="73" measuredW="1262" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Danh%20sach%20doi%20bong%20liet%20ke%20cac%20doi%20tham%20gia%20thi%20dau%20giai%20vo%20dich%20bong%20da%20toan%20quoc.%20Trong%20danh%20sach%2C%20Ban%20co%20the%20nhap%20them%20cac%20doi%20bong%20muon%20tham%20gia%20vao%20giai.%20Ngo%E0i%20ra%20ban%20cung%20co%20the%20xoa%20va%20cap%20nhat%20thong%20tin%20ve%20doi%20bong</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Link" x="430" y="170" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>TiepNhanHoSoDoiBong_Mockup%26bm%3BTiepNhanHoSoDoiBong_Mockup.bmml%26bm%3BTiepNhanHoSoDoiBong_Mockup.bmml%26bm%3BTiepNhanHoSoDoiBong_Mockup.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2217%2C128%2C73%2C149%22%20href%3D%22TiepNhanHoSoDoiBong_Mockup.bmml%22%20alt%3D%22TiepNhanHoSoDoiBong_Mockup%22%20id%3D%228%22/%3E</map>
+        <text>Chi%20tiet...</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="436" y="250" w="-1" h="-1" measuredW="160" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>%3E%3E%20Danh%20sach%20cau%20thu</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="430" y="271" w="494" h="73" measuredW="719" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Danh%20sach%20cau%20thu%20liet%20ke%20cac%20cau%20thu%20trong%20doi%20bong.%20Trong%20danh%20sach%2C%20ban%20co%20the%20them%2C%20xoa%20hay%20cap%20nhat%20thong%20tin%20cua%20cau%20thu</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Link" x="430" y="308" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>TiepNhanDanhSachCauThu_Mockup%26bm%3BTiepNhanDanhSachCauThu_Mockup.bmml%26bm%3BTiepNhanDanhSachCauThu_Mockup.bmml%26bm%3BTiepNhanDanhSachCauThu_Mockup.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2217%2C266%2C73%2C287%22%20href%3D%22TiepNhanDanhSachCauThu_Mockup.bmml%22%20alt%3D%22TiepNhanDanhSachCauThu_Mockup%22%20id%3D%2211%22/%3E</map>
+        <text>Chi%20tiet...</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
