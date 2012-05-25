@@ -1,53 +1,29 @@
-<mockup version="1.0" skin="sketch" measuredW="1013" measuredH="610" mockupW="761" mockupH="608">
+<mockup version="1.0" skin="sketch" measuredW="1076" measuredH="501" mockupW="729" mockupH="481">
   <controls>
-    <control controlID="6" controlTypeID="__group__" x="252" y="2" w="761" h="608" measuredW="761" measuredH="608" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="6" controlTypeID="__group__" x="347" y="20" w="729" h="481" measuredW="729" measuredH="481" zOrder="0" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="6" controlTypeID="__group__" x="0" y="0" w="761" h="608" measuredW="761" measuredH="608" zOrder="0" locked="false" isInGroup="6">
-          <groupChildrenDescriptors>
-            <control controlID="4" controlTypeID="__group__" x="0" y="0" w="761" h="608" measuredW="761" measuredH="608" zOrder="0" locked="false" isInGroup="6">
-              <controlProperties>
-                <markup>true</markup>
-              </controlProperties>
-              <groupChildrenDescriptors>
-                <control controlID="0" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="2" y="58" w="755" h="550" measuredW="200" measuredH="346" zOrder="0" locked="false" isInGroup="4">
-                  <controlProperties>
-                    <color>16777215</color>
-                    <hrefs>%2C%2C%2C%2C%2C%2C%2C%2C%2C%2C%2CTroGiup_Mockup%26bm%3BTroGiup_Mockup.bmml%26bm%3BTroGiup_Mockup.bmml%26bm%3BTroGiup_Mockup.bmml</hrefs>
-                    <map>%3Carea%20shape%3D%22rect%22%20coords%3D%222%2C397%2C199%2C426%22%20href%3D%22TroGiup_Mockup.bmml%22%20alt%3D%22TroGiup_Mockup%22%20id%3D%220_0%22/%3E%0A</map>
-                    <text>Quan%20Ly%0A%09Tiep%20nhan%20ho%20so%20doi%20bong%0A%09Tiep%20nhan%20danh%20sach%20cau%20thu%0A%09Lap%20lich%20thi%20dau%0A%09Ghi%20nhan%20ket%20qua%20tran%20dau%0A%09Lap%20bao%20cao%20giai%0ATra%20Cuu%0A%09Tra%20cuu%20doi%20bong%0A%09Tra%20cuu%20cau%20thu%0AGiai%20thuong%0AThay%20doi%20quy%20dinh%0ATro%20Giup</text>
-                  </controlProperties>
-                </control>
-                <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="761" h="79" measuredW="761" measuredH="70" zOrder="1" locked="false" isInGroup="4">
-                  <controlProperties>
-                    <borderStyle>square</borderStyle>
-                    <src>./HinhAnh/banner.jpg</src>
-                    <text>Title%20name</text>
-                  </controlProperties>
-                </control>
-                <control controlID="2" controlTypeID="__group__" x="2" y="424" w="196" h="184" measuredW="196" measuredH="184" zOrder="2" locked="false" isInGroup="4">
-                  <groupChildrenDescriptors>
-                    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="196" h="184" measuredW="202" measuredH="249" zOrder="0" locked="false" isInGroup="2">
-                      <controlProperties>
-                        <src>./HinhAnh/images.jpg</src>
-                      </controlProperties>
-                    </control>
-                  </groupChildrenDescriptors>
-                </control>
-                <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="198" y="79" w="559" h="529" measuredW="1280" measuredH="1024" zOrder="3" locked="false" isInGroup="4">
-                  <controlProperties>
-                    <src>./HinhAnh/football_player.JPG</src>
-                    <text>logo%20chinh%20</text>
-                  </controlProperties>
-                </control>
-              </groupChildrenDescriptors>
-            </control>
-            <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="1" y="423" w="198" h="185" measuredW="187" measuredH="187" zOrder="1" locked="false" isInGroup="6">
-              <controlProperties>
-                <src>./HinhAnh/Panel3.jpg</src>
-                <text>Panel</text>
-              </controlProperties>
-            </control>
-          </groupChildrenDescriptors>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="0" y="56" w="729" h="363" measuredW="200" measuredH="283" zOrder="0" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Quan%20Ly%0A%09Quan%20Ly%20Doi%20Bong%0A%09Quan%20Ly%20Trong%20Tai%0A%09Quan%20Ly%20Thi%20Dau%0A%09Quan%20Ly%20Ket%20Qua%20TD%0ATra%20Cuu%0AGiai%20Thuong%0AThay%20Doi%20Quy%20Dinh%0ATro%20Giup</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="729" h="79" measuredW="761" measuredH="70" zOrder="1" locked="false" isInGroup="6">
+          <controlProperties>
+            <src>./HinhAnh/banner.jpg</src>
+            <text>Tite%20Name</text>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Image" x="0" y="333" w="160" h="148" measuredW="187" measuredH="187" zOrder="2" locked="false" isInGroup="6">
+          <controlProperties>
+            <src>./HinhAnh/Panel3.jpg</src>
+            <text>Banner_Left</text>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Image" x="160" y="78" w="569" h="403" measuredW="1280" measuredH="1024" zOrder="3" locked="false" isInGroup="6">
+          <controlProperties>
+            <src>./HinhAnh/football_player.JPG</src>
+            <text>Main</text>
+          </controlProperties>
         </control>
       </groupChildrenDescriptors>
     </control>
