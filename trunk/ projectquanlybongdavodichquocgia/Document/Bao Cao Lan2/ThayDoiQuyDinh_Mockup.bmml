@@ -1,3 +1,17 @@
-<mockup version="1.0" skin="sketch" measuredW="0" measuredH="0" mockupW="0" mockupH="0">
-  <controls/>
+<mockup version="1.0" skin="sketch" measuredW="825" measuredH="439" mockupW="464" mockupH="373">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="361" y="66" w="464" h="40" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7317724</color>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="395" y="74" w="-1" h="-1" measuredW="201" measuredH="28" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>545684</color>
+        <size>20</size>
+        <text>THAY%20DOI%20QUY%20DINH</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="361" y="100" w="464" h="339" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+  </controls>
 </mockup>

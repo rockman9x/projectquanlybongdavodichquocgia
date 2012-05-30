@@ -1,12 +1,14 @@
 <mockup version="1.0" skin="sketch" measuredW="939" measuredH="398" mockupW="526" mockupH="356">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="413" y="42" w="526" h="356" measuredW="270" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="413" y="42" w="526" h="356" measuredW="269" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Doi%20Bong%2C%20San%2C%20Ban%20Huan%20Luyen</text>
       </controlProperties>
     </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="436" y="90" w="-1" h="-1" measuredW="168" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="436" y="90" w="-1" h="-1" measuredW="178" measuredH="24" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
+        <bold>true</bold>
+        <color>545684</color>
         <size>16</size>
         <text>%3E%3E%20Danh%20sach%20doi%20bong</text>
       </controlProperties>
@@ -23,8 +25,10 @@
         <text>Chi%20tiet...</text>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="436" y="250" w="-1" h="-1" measuredW="160" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="436" y="250" w="-1" h="-1" measuredW="171" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
+        <bold>true</bold>
+        <color>545684</color>
         <size>16</size>
         <text>%3E%3E%20Danh%20sach%20cau%20thu</text>
       </controlProperties>
