@@ -8,21 +8,25 @@
     <control controlID="59" controlTypeID="com.balsamiq.mockups::HRule" x="406" y="270" w="534" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="-1"/>
     <control controlID="60" controlTypeID="com.balsamiq.mockups::Button" x="435" y="287" w="67" h="27" measuredW="57" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Them</text>
       </controlProperties>
     </control>
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Button" x="558" y="287" w="55" h="27" measuredW="47" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Xoa</text>
       </controlProperties>
     </control>
     <control controlID="62" controlTypeID="com.balsamiq.mockups::Button" x="673" y="287" w="91" h="27" measuredW="78" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Cap%20Nhat</text>
       </controlProperties>
     </control>
     <control controlID="63" controlTypeID="com.balsamiq.mockups::Button" x="817" y="287" w="76" h="27" measuredW="65" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Refesh</text>
       </controlProperties>
     </control>
