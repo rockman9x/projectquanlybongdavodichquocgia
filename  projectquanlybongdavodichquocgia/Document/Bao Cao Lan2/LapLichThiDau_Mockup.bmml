@@ -8,21 +8,25 @@
     <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="400" y="309" w="549" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="-1"/>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="421" y="321" w="67" h="27" measuredW="57" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Them</text>
       </controlProperties>
     </control>
     <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="556" y="321" w="55" h="27" measuredW="47" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Xoa</text>
       </controlProperties>
     </control>
     <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="675" y="321" w="91" h="27" measuredW="78" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Cap%20Nhat</text>
       </controlProperties>
     </control>
     <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="827" y="321" w="76" h="27" measuredW="65" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>545684</color>
         <text>Refesh</text>
       </controlProperties>
     </control>
@@ -31,7 +35,7 @@
         <text>Ma%20tran%20dau</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="718" y="135" w="47" h="21" measuredW="28" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="718" y="135" w="47" h="21" measuredW="27" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <text>San</text>
       </controlProperties>
