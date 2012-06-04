@@ -67,7 +67,7 @@ namespace Presentations
             //MaDB_1_dataGridView1.DataSource = ql.Load(SQLProvider.GetAll("Trandau"));
             dataGridView1_thidau.DataSource = ql.LoadLichThiDau("LoadLichThiDau");
             //bi
-
+            
         }
 
         private void btThemThiDau_Click(object sender, EventArgs e)

@@ -79,7 +79,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(656, 470);
+            this.tabControl1.Size = new System.Drawing.Size(656, 436);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.Selected += new System.Windows.Forms.TabControlEventHandler(this.Select);
             // 
@@ -98,22 +98,25 @@
             this.tabTrongTai.Controls.Add(this.lbngaysinhtrongtai);
             this.tabTrongTai.Controls.Add(this.lbtentrongtai);
             this.tabTrongTai.Controls.Add(this.lbmatrongtai);
-            this.tabTrongTai.ForeColor = System.Drawing.Color.Green;
+            this.tabTrongTai.ForeColor = System.Drawing.Color.Blue;
             this.tabTrongTai.Location = new System.Drawing.Point(4, 33);
             this.tabTrongTai.Name = "tabTrongTai";
             this.tabTrongTai.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTrongTai.Size = new System.Drawing.Size(648, 433);
+            this.tabTrongTai.Size = new System.Drawing.Size(648, 399);
             this.tabTrongTai.TabIndex = 0;
             this.tabTrongTai.Text = "Trọng Tài";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 173);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 161);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(630, 252);
+            this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(630, 234);
             this.dataGridView1.TabIndex = 7;
             this.dataGridView1.Click += new System.EventHandler(this.dataGridView1_Click);
             // 
@@ -121,7 +124,7 @@
             // 
             this.datetimengaysinhtrongtai.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.datetimengaysinhtrongtai.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.datetimengaysinhtrongtai.Location = new System.Drawing.Point(193, 118);
+            this.datetimengaysinhtrongtai.Location = new System.Drawing.Point(193, 110);
             this.datetimengaysinhtrongtai.MaxDate = new System.DateTime(1980, 12, 31, 0, 0, 0, 0);
             this.datetimengaysinhtrongtai.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
             this.datetimengaysinhtrongtai.Name = "datetimengaysinhtrongtai";
@@ -133,9 +136,10 @@
             // 
             this.btxoatrongtai.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btxoatrongtai.BackgroundImage")));
             this.btxoatrongtai.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btxoatrongtai.Location = new System.Drawing.Point(455, 50);
+            this.btxoatrongtai.Image = global::Presentations.Properties.Resources.button;
+            this.btxoatrongtai.Location = new System.Drawing.Point(455, 46);
             this.btxoatrongtai.Name = "btxoatrongtai";
-            this.btxoatrongtai.Size = new System.Drawing.Size(90, 29);
+            this.btxoatrongtai.Size = new System.Drawing.Size(90, 27);
             this.btxoatrongtai.TabIndex = 4;
             this.btxoatrongtai.Text = "Xoá";
             this.btxoatrongtai.UseVisualStyleBackColor = true;
@@ -144,10 +148,11 @@
             // btthemtrongtai
             // 
             this.btthemtrongtai.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btthemtrongtai.BackgroundImage")));
-            this.btthemtrongtai.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btthemtrongtai.Location = new System.Drawing.Point(455, 15);
+            this.btthemtrongtai.ForeColor = System.Drawing.Color.White;
+            this.btthemtrongtai.Image = global::Presentations.Properties.Resources.button;
+            this.btthemtrongtai.Location = new System.Drawing.Point(455, 14);
             this.btthemtrongtai.Name = "btthemtrongtai";
-            this.btthemtrongtai.Size = new System.Drawing.Size(90, 29);
+            this.btthemtrongtai.Size = new System.Drawing.Size(90, 27);
             this.btthemtrongtai.TabIndex = 3;
             this.btthemtrongtai.Text = "Thêm";
             this.btthemtrongtai.UseVisualStyleBackColor = true;
@@ -157,9 +162,10 @@
             // 
             this.btcapnhattrongtai.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btcapnhattrongtai.BackgroundImage")));
             this.btcapnhattrongtai.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btcapnhattrongtai.Location = new System.Drawing.Point(455, 85);
+            this.btcapnhattrongtai.Image = global::Presentations.Properties.Resources.button;
+            this.btcapnhattrongtai.Location = new System.Drawing.Point(455, 83);
             this.btcapnhattrongtai.Name = "btcapnhattrongtai";
-            this.btcapnhattrongtai.Size = new System.Drawing.Size(90, 29);
+            this.btcapnhattrongtai.Size = new System.Drawing.Size(90, 27);
             this.btcapnhattrongtai.TabIndex = 5;
             this.btcapnhattrongtai.Text = "Câp nhật";
             this.btcapnhattrongtai.UseVisualStyleBackColor = true;
@@ -169,9 +175,10 @@
             // 
             this.btrefeshtrongtai.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btrefeshtrongtai.BackgroundImage")));
             this.btrefeshtrongtai.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btrefeshtrongtai.Location = new System.Drawing.Point(455, 130);
+            this.btrefeshtrongtai.Image = global::Presentations.Properties.Resources.button;
+            this.btrefeshtrongtai.Location = new System.Drawing.Point(455, 121);
             this.btrefeshtrongtai.Name = "btrefeshtrongtai";
-            this.btrefeshtrongtai.Size = new System.Drawing.Size(90, 29);
+            this.btrefeshtrongtai.Size = new System.Drawing.Size(90, 27);
             this.btrefeshtrongtai.TabIndex = 6;
             this.btrefeshtrongtai.Text = "Refresh";
             this.btrefeshtrongtai.UseVisualStyleBackColor = true;
@@ -180,7 +187,7 @@
             // tbtentrongtai
             // 
             this.tbtentrongtai.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbtentrongtai.Location = new System.Drawing.Point(193, 22);
+            this.tbtentrongtai.Location = new System.Drawing.Point(193, 20);
             this.tbtentrongtai.Name = "tbtentrongtai";
             this.tbtentrongtai.Size = new System.Drawing.Size(201, 29);
             this.tbtentrongtai.TabIndex = 0;
@@ -189,7 +196,7 @@
             // tbmatrongtai
             // 
             this.tbmatrongtai.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbmatrongtai.Location = new System.Drawing.Point(193, 70);
+            this.tbmatrongtai.Location = new System.Drawing.Point(193, 65);
             this.tbmatrongtai.Name = "tbmatrongtai";
             this.tbmatrongtai.Size = new System.Drawing.Size(201, 29);
             this.tbmatrongtai.TabIndex = 1;
@@ -198,8 +205,8 @@
             // 
             this.lbngaysinhtrongtai.AutoSize = true;
             this.lbngaysinhtrongtai.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbngaysinhtrongtai.ForeColor = System.Drawing.Color.SeaGreen;
-            this.lbngaysinhtrongtai.Location = new System.Drawing.Point(82, 124);
+            this.lbngaysinhtrongtai.ForeColor = System.Drawing.Color.Blue;
+            this.lbngaysinhtrongtai.Location = new System.Drawing.Point(82, 115);
             this.lbngaysinhtrongtai.Name = "lbngaysinhtrongtai";
             this.lbngaysinhtrongtai.Size = new System.Drawing.Size(84, 21);
             this.lbngaysinhtrongtai.TabIndex = 0;
@@ -209,8 +216,8 @@
             // 
             this.lbtentrongtai.AutoSize = true;
             this.lbtentrongtai.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbtentrongtai.ForeColor = System.Drawing.Color.SeaGreen;
-            this.lbtentrongtai.Location = new System.Drawing.Point(82, 30);
+            this.lbtentrongtai.ForeColor = System.Drawing.Color.Blue;
+            this.lbtentrongtai.Location = new System.Drawing.Point(82, 28);
             this.lbtentrongtai.Name = "lbtentrongtai";
             this.lbtentrongtai.Size = new System.Drawing.Size(105, 21);
             this.lbtentrongtai.TabIndex = 0;
@@ -220,8 +227,8 @@
             // 
             this.lbmatrongtai.AutoSize = true;
             this.lbmatrongtai.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbmatrongtai.ForeColor = System.Drawing.Color.SeaGreen;
-            this.lbmatrongtai.Location = new System.Drawing.Point(82, 73);
+            this.lbmatrongtai.ForeColor = System.Drawing.Color.Blue;
+            this.lbmatrongtai.Location = new System.Drawing.Point(82, 68);
             this.lbmatrongtai.Name = "lbmatrongtai";
             this.lbmatrongtai.Size = new System.Drawing.Size(100, 21);
             this.lbmatrongtai.TabIndex = 0;
@@ -248,7 +255,7 @@
             this.tabDieuKhien.Location = new System.Drawing.Point(4, 33);
             this.tabDieuKhien.Name = "tabDieuKhien";
             this.tabDieuKhien.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDieuKhien.Size = new System.Drawing.Size(648, 433);
+            this.tabDieuKhien.Size = new System.Drawing.Size(648, 399);
             this.tabDieuKhien.TabIndex = 1;
             this.tabDieuKhien.Text = "Điều Khiển";
             // 
@@ -257,9 +264,9 @@
             this.DK_MaTT_dataGridView3.BackgroundColor = System.Drawing.Color.White;
             this.DK_MaTT_dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DK_MaTT_dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DK_MaTT_dataGridView3.Location = new System.Drawing.Point(626, 412);
+            this.DK_MaTT_dataGridView3.Location = new System.Drawing.Point(626, 383);
             this.DK_MaTT_dataGridView3.Name = "DK_MaTT_dataGridView3";
-            this.DK_MaTT_dataGridView3.Size = new System.Drawing.Size(10, 11);
+            this.DK_MaTT_dataGridView3.Size = new System.Drawing.Size(10, 10);
             this.DK_MaTT_dataGridView3.TabIndex = 13;
             this.DK_MaTT_dataGridView3.Visible = false;
             // 
@@ -267,7 +274,7 @@
             // 
             this.cbbmatrongtaidieukhien.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbmatrongtaidieukhien.FormattingEnabled = true;
-            this.cbbmatrongtaidieukhien.Location = new System.Drawing.Point(204, 105);
+            this.cbbmatrongtaidieukhien.Location = new System.Drawing.Point(204, 97);
             this.cbbmatrongtaidieukhien.Name = "cbbmatrongtaidieukhien";
             this.cbbmatrongtaidieukhien.Size = new System.Drawing.Size(189, 29);
             this.cbbmatrongtaidieukhien.TabIndex = 2;
@@ -277,7 +284,7 @@
             // 
             this.cbbmadieukhientrandau.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbmadieukhientrandau.FormattingEnabled = true;
-            this.cbbmadieukhientrandau.Location = new System.Drawing.Point(204, 17);
+            this.cbbmadieukhientrandau.Location = new System.Drawing.Point(204, 16);
             this.cbbmadieukhientrandau.Name = "cbbmadieukhientrandau";
             this.cbbmadieukhientrandau.Size = new System.Drawing.Size(189, 29);
             this.cbbmadieukhientrandau.TabIndex = 0;
@@ -285,12 +292,15 @@
             // 
             // dataGridView2
             // 
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 163);
+            this.dataGridView2.Location = new System.Drawing.Point(6, 151);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(630, 262);
+            this.dataGridView2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView2.Size = new System.Drawing.Size(630, 243);
             this.dataGridView2.TabIndex = 7;
             this.dataGridView2.Click += new System.EventHandler(this.dataGridView2_Click);
             // 
@@ -303,7 +313,7 @@
             "Trợ lý trọng tài",
             "Giám sát",
             "Trọng tài thời gian"});
-            this.cbbvaitrodieukhien.Location = new System.Drawing.Point(204, 59);
+            this.cbbvaitrodieukhien.Location = new System.Drawing.Point(204, 55);
             this.cbbvaitrodieukhien.Name = "cbbvaitrodieukhien";
             this.cbbvaitrodieukhien.Size = new System.Drawing.Size(189, 29);
             this.cbbvaitrodieukhien.TabIndex = 1;
@@ -313,10 +323,10 @@
             // 
             this.lbvaitrondieukhien.AutoSize = true;
             this.lbvaitrondieukhien.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbvaitrondieukhien.ForeColor = System.Drawing.Color.SeaGreen;
-            this.lbvaitrondieukhien.Location = new System.Drawing.Point(91, 62);
+            this.lbvaitrondieukhien.ForeColor = System.Drawing.Color.Blue;
+            this.lbvaitrondieukhien.Location = new System.Drawing.Point(91, 58);
             this.lbvaitrondieukhien.Name = "lbvaitrondieukhien";
-            this.lbvaitrondieukhien.Size = new System.Drawing.Size(61, 21);
+            this.lbvaitrondieukhien.Size = new System.Drawing.Size(59, 21);
             this.lbvaitrondieukhien.TabIndex = 8;
             this.lbvaitrondieukhien.Text = "Vai trò";
             // 
@@ -324,10 +334,10 @@
             // 
             this.lbmatrongtaidieukhien.AutoSize = true;
             this.lbmatrongtaidieukhien.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbmatrongtaidieukhien.ForeColor = System.Drawing.Color.SeaGreen;
-            this.lbmatrongtaidieukhien.Location = new System.Drawing.Point(92, 109);
+            this.lbmatrongtaidieukhien.ForeColor = System.Drawing.Color.Blue;
+            this.lbmatrongtaidieukhien.Location = new System.Drawing.Point(92, 101);
             this.lbmatrongtaidieukhien.Name = "lbmatrongtaidieukhien";
-            this.lbmatrongtaidieukhien.Size = new System.Drawing.Size(78, 21);
+            this.lbmatrongtaidieukhien.Size = new System.Drawing.Size(77, 21);
             this.lbmatrongtaidieukhien.TabIndex = 8;
             this.lbmatrongtaidieukhien.Text = "Trọng tài";
             // 
@@ -335,8 +345,8 @@
             // 
             this.lbmatrandaudieukhien.AutoSize = true;
             this.lbmatrandaudieukhien.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbmatrandaudieukhien.ForeColor = System.Drawing.Color.SeaGreen;
-            this.lbmatrandaudieukhien.Location = new System.Drawing.Point(91, 21);
+            this.lbmatrandaudieukhien.ForeColor = System.Drawing.Color.Blue;
+            this.lbmatrandaudieukhien.Location = new System.Drawing.Point(91, 19);
             this.lbmatrandaudieukhien.Name = "lbmatrandaudieukhien";
             this.lbmatrandaudieukhien.Size = new System.Drawing.Size(99, 21);
             this.lbmatrandaudieukhien.TabIndex = 8;
@@ -346,9 +356,10 @@
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(427, 45);
+            this.button1.Image = global::Presentations.Properties.Resources.button;
+            this.button1.Location = new System.Drawing.Point(427, 42);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 29);
+            this.button1.Size = new System.Drawing.Size(90, 27);
             this.button1.TabIndex = 4;
             this.button1.Text = "Xoá";
             this.button1.UseVisualStyleBackColor = true;
@@ -358,9 +369,10 @@
             // 
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(427, 10);
+            this.button2.Image = global::Presentations.Properties.Resources.button;
+            this.button2.Location = new System.Drawing.Point(427, 9);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 29);
+            this.button2.Size = new System.Drawing.Size(90, 27);
             this.button2.TabIndex = 3;
             this.button2.Text = "Thêm";
             this.button2.UseVisualStyleBackColor = true;
@@ -370,9 +382,10 @@
             // 
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.Location = new System.Drawing.Point(427, 80);
+            this.button3.Image = global::Presentations.Properties.Resources.button;
+            this.button3.Location = new System.Drawing.Point(427, 74);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 29);
+            this.button3.Size = new System.Drawing.Size(90, 27);
             this.button3.TabIndex = 5;
             this.button3.Text = "Câp nhật";
             this.button3.UseVisualStyleBackColor = true;
@@ -382,9 +395,10 @@
             // 
             this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Location = new System.Drawing.Point(427, 115);
+            this.button4.Image = global::Presentations.Properties.Resources.button;
+            this.button4.Location = new System.Drawing.Point(427, 107);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 29);
+            this.button4.Size = new System.Drawing.Size(90, 27);
             this.button4.TabIndex = 6;
             this.button4.Text = "Refresh";
             this.button4.UseVisualStyleBackColor = true;
@@ -406,12 +420,12 @@
             // 
             // QuanLyTrongTai
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.tabControl1);
             this.Name = "QuanLyTrongTai";
-            this.Size = new System.Drawing.Size(656, 470);
+            this.Size = new System.Drawing.Size(656, 436);
             this.tabControl1.ResumeLayout(false);
             this.tabTrongTai.ResumeLayout(false);
             this.tabTrongTai.PerformLayout();

@@ -36,7 +36,15 @@ namespace Presentations
                 name = cbbChon.SelectedItem.ToString();
             QuanLyTraCuu_BLL ql = new QuanLyTraCuu_BLL(); 
             string s1 = tbTuKhoa.Text;
-            string s = "%" + s1 + "%";
+            string s = "";
+            if (s1 == "")
+            {
+                s = "%";
+            }
+            else
+            {
+                s = s1.Replace("*","%");
+            }
             switch (name)
             {
                 case "Đội bóng":
@@ -76,7 +84,7 @@ namespace Presentations
 
         private void btTim_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
 
         private void cbbChon_KeyPress(object sender, KeyPressEventArgs e)
@@ -94,6 +102,11 @@ namespace Presentations
 
         }
 
-        
+        private void tbTuKhoa_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btTim_Click(sender as ComboBox, e);
+        }
+
     }
 }

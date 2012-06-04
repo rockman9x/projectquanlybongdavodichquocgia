@@ -28,3 +28,8 @@ C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Entities\b
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Entities\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Entities\obj\Debug\Entities.dll
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Entities\obj\Debug\Entities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Entities\bin\Debug\Entities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Entities\bin\Debug\Entities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Entities\obj\Debug\Entities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Entities\obj\Debug\Entities.pdb
