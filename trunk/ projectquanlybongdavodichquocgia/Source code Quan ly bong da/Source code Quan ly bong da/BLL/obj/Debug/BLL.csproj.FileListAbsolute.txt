@@ -75,3 +75,14 @@ C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\De
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\obj\Debug\BLL.dll
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\obj\Debug\BLL.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\BLL.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\BLL.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\DALayer.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Entities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Utilities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\DALayer.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Entities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Utilities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\BLL.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\BLL.pdb

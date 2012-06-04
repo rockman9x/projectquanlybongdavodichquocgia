@@ -28,3 +28,8 @@ C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.dll
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Utilities\bin\Debug\Utilities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Utilities\bin\Debug\Utilities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Utilities\obj\Debug\Utilities.pdb

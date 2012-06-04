@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChiTietDanhSachCauThu));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,7 +62,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 25);
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(22, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 21);
             this.label1.TabIndex = 1;
@@ -73,7 +73,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 61);
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(22, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 21);
             this.label2.TabIndex = 1;
@@ -83,7 +84,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 101);
+            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.Location = new System.Drawing.Point(22, 94);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 21);
             this.label3.TabIndex = 1;
@@ -93,9 +95,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(207, 61);
+            this.label5.ForeColor = System.Drawing.Color.Blue;
+            this.label5.Location = new System.Drawing.Point(207, 57);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 21);
+            this.label5.Size = new System.Drawing.Size(58, 21);
             this.label5.TabIndex = 1;
             this.label5.Text = "Vi Trí:";
             // 
@@ -103,7 +106,8 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(361, 59);
+            this.label6.ForeColor = System.Drawing.Color.Blue;
+            this.label6.Location = new System.Drawing.Point(361, 55);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 21);
             this.label6.TabIndex = 1;
@@ -113,7 +117,8 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(361, 25);
+            this.label7.ForeColor = System.Drawing.Color.Blue;
+            this.label7.Location = new System.Drawing.Point(361, 23);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 21);
             this.label7.TabIndex = 1;
@@ -123,7 +128,8 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(242, 102);
+            this.label8.ForeColor = System.Drawing.Color.Blue;
+            this.label8.Location = new System.Drawing.Point(242, 95);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(58, 21);
             this.label8.TabIndex = 1;
@@ -132,7 +138,7 @@
             // tbhotenct
             // 
             this.tbhotenct.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbhotenct.Location = new System.Drawing.Point(114, 16);
+            this.tbhotenct.Location = new System.Drawing.Point(114, 15);
             this.tbhotenct.Name = "tbhotenct";
             this.tbhotenct.Size = new System.Drawing.Size(238, 29);
             this.tbhotenct.TabIndex = 1;
@@ -141,7 +147,7 @@
             // tbmact
             // 
             this.tbmact.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbmact.Location = new System.Drawing.Point(115, 55);
+            this.tbmact.Location = new System.Drawing.Point(115, 51);
             this.tbmact.Name = "tbmact";
             this.tbmact.Size = new System.Drawing.Size(89, 29);
             this.tbmact.TabIndex = 3;
@@ -151,7 +157,7 @@
             this.datetimeNgaySinh.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.datetimeNgaySinh.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.datetimeNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.datetimeNgaySinh.Location = new System.Drawing.Point(114, 95);
+            this.datetimeNgaySinh.Location = new System.Drawing.Point(114, 88);
             this.datetimeNgaySinh.MaxDate = new System.DateTime(1993, 12, 31, 0, 0, 0, 0);
             this.datetimeNgaySinh.MinDate = new System.DateTime(1981, 1, 1, 0, 0, 0, 0);
             this.datetimeNgaySinh.Name = "datetimeNgaySinh";
@@ -170,7 +176,7 @@
             "Trung vệ",
             "Hậu vệ",
             "Thủ môn"});
-            this.cbbvtri.Location = new System.Drawing.Point(273, 54);
+            this.cbbvtri.Location = new System.Drawing.Point(273, 50);
             this.cbbvtri.Name = "cbbvtri";
             this.cbbvtri.Size = new System.Drawing.Size(80, 30);
             this.cbbvtri.TabIndex = 4;
@@ -179,7 +185,7 @@
             // nbsoao
             // 
             this.nbsoao.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nbsoao.Location = new System.Drawing.Point(304, 97);
+            this.nbsoao.Location = new System.Drawing.Point(304, 90);
             this.nbsoao.Name = "nbsoao";
             this.nbsoao.Size = new System.Drawing.Size(49, 29);
             this.nbsoao.TabIndex = 7;
@@ -194,7 +200,7 @@
             "Mỹ",
             "Anh",
             "Brazin"});
-            this.cbbQuocTich.Location = new System.Drawing.Point(462, 20);
+            this.cbbQuocTich.Location = new System.Drawing.Point(462, 19);
             this.cbbQuocTich.Name = "cbbQuocTich";
             this.cbbQuocTich.Size = new System.Drawing.Size(160, 30);
             this.cbbQuocTich.TabIndex = 2;
@@ -203,9 +209,10 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(8, 190);
+            this.dataGridView1.Location = new System.Drawing.Point(8, 176);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(634, 267);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(634, 248);
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.Click += new System.EventHandler(this.dataGridView1_Click);
             // 
@@ -213,7 +220,8 @@
             // 
             this.lbGioiTinh.AutoSize = true;
             this.lbGioiTinh.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbGioiTinh.Location = new System.Drawing.Point(361, 101);
+            this.lbGioiTinh.ForeColor = System.Drawing.Color.Blue;
+            this.lbGioiTinh.Location = new System.Drawing.Point(361, 94);
             this.lbGioiTinh.Name = "lbGioiTinh";
             this.lbGioiTinh.Size = new System.Drawing.Size(80, 21);
             this.lbGioiTinh.TabIndex = 1;
@@ -227,7 +235,7 @@
             this.cbbGioiTinh.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.cbbGioiTinh.Location = new System.Drawing.Point(462, 96);
+            this.cbbGioiTinh.Location = new System.Drawing.Point(462, 89);
             this.cbbGioiTinh.Name = "cbbGioiTinh";
             this.cbbGioiTinh.Size = new System.Drawing.Size(160, 30);
             this.cbbGioiTinh.TabIndex = 8;
@@ -238,7 +246,7 @@
             this.cbbmadb.BackColor = System.Drawing.Color.White;
             this.cbbmadb.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbmadb.FormattingEnabled = true;
-            this.cbbmadb.Location = new System.Drawing.Point(462, 57);
+            this.cbbmadb.Location = new System.Drawing.Point(462, 53);
             this.cbbmadb.Name = "cbbmadb";
             this.cbbmadb.Size = new System.Drawing.Size(160, 30);
             this.cbbmadb.TabIndex = 5;
@@ -249,12 +257,12 @@
             this.btSua.BackColor = System.Drawing.Color.Transparent;
             this.btSua.BackgroundImage = global::Presentations.Properties.Resources.button;
             this.btSua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btSua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSua.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btSua.Image = ((System.Drawing.Image)(resources.GetObject("btSua.Image")));
-            this.btSua.Location = new System.Drawing.Point(465, 145);
+            this.btSua.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSua.ForeColor = System.Drawing.Color.White;
+            this.btSua.Image = global::Presentations.Properties.Resources.button;
+            this.btSua.Location = new System.Drawing.Point(465, 135);
             this.btSua.Name = "btSua";
-            this.btSua.Size = new System.Drawing.Size(93, 30);
+            this.btSua.Size = new System.Drawing.Size(93, 28);
             this.btSua.TabIndex = 0;
             this.btSua.Text = "Cập nhật";
             this.btSua.UseVisualStyleBackColor = false;
@@ -265,12 +273,12 @@
             this.btXoa.BackColor = System.Drawing.Color.Transparent;
             this.btXoa.BackgroundImage = global::Presentations.Properties.Resources.button;
             this.btXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btXoa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btXoa.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btXoa.Image = ((System.Drawing.Image)(resources.GetObject("btXoa.Image")));
-            this.btXoa.Location = new System.Drawing.Point(334, 145);
+            this.btXoa.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btXoa.ForeColor = System.Drawing.Color.White;
+            this.btXoa.Image = global::Presentations.Properties.Resources.button;
+            this.btXoa.Location = new System.Drawing.Point(334, 135);
             this.btXoa.Name = "btXoa";
-            this.btXoa.Size = new System.Drawing.Size(93, 30);
+            this.btXoa.Size = new System.Drawing.Size(93, 28);
             this.btXoa.TabIndex = 0;
             this.btXoa.Text = "Xoá";
             this.btXoa.UseVisualStyleBackColor = false;
@@ -281,12 +289,12 @@
             this.btThem.BackColor = System.Drawing.Color.Transparent;
             this.btThem.BackgroundImage = global::Presentations.Properties.Resources.button;
             this.btThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btThem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThem.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btThem.Image = ((System.Drawing.Image)(resources.GetObject("btThem.Image")));
-            this.btThem.Location = new System.Drawing.Point(205, 145);
+            this.btThem.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btThem.ForeColor = System.Drawing.Color.White;
+            this.btThem.Image = global::Presentations.Properties.Resources.button;
+            this.btThem.Location = new System.Drawing.Point(205, 135);
             this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(93, 30);
+            this.btThem.Size = new System.Drawing.Size(93, 28);
             this.btThem.TabIndex = 0;
             this.btThem.Text = "Thêm";
             this.btThem.UseVisualStyleBackColor = false;
@@ -297,12 +305,12 @@
             this.btRefresh.BackColor = System.Drawing.Color.Transparent;
             this.btRefresh.BackgroundImage = global::Presentations.Properties.Resources.button;
             this.btRefresh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btRefresh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRefresh.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btRefresh.Image = ((System.Drawing.Image)(resources.GetObject("btRefresh.Image")));
-            this.btRefresh.Location = new System.Drawing.Point(76, 145);
+            this.btRefresh.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btRefresh.ForeColor = System.Drawing.Color.White;
+            this.btRefresh.Image = global::Presentations.Properties.Resources.button;
+            this.btRefresh.Location = new System.Drawing.Point(76, 135);
             this.btRefresh.Name = "btRefresh";
-            this.btRefresh.Size = new System.Drawing.Size(93, 30);
+            this.btRefresh.Size = new System.Drawing.Size(93, 28);
             this.btRefresh.TabIndex = 0;
             this.btRefresh.Text = "Refresh";
             this.btRefresh.UseVisualStyleBackColor = false;
@@ -317,15 +325,15 @@
             this.CT_MaDB_dataGridView2.BackgroundColor = System.Drawing.Color.White;
             this.CT_MaDB_dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.CT_MaDB_dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.CT_MaDB_dataGridView2.Location = new System.Drawing.Point(632, 446);
+            this.CT_MaDB_dataGridView2.Location = new System.Drawing.Point(632, 414);
             this.CT_MaDB_dataGridView2.Name = "CT_MaDB_dataGridView2";
-            this.CT_MaDB_dataGridView2.Size = new System.Drawing.Size(10, 11);
+            this.CT_MaDB_dataGridView2.Size = new System.Drawing.Size(10, 10);
             this.CT_MaDB_dataGridView2.TabIndex = 11;
             this.CT_MaDB_dataGridView2.Visible = false;
             // 
             // ChiTietDanhSachCauThu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.White;
@@ -353,7 +361,7 @@
             this.Controls.Add(this.btThem);
             this.Controls.Add(this.btRefresh);
             this.Name = "ChiTietDanhSachCauThu";
-            this.Size = new System.Drawing.Size(654, 468);
+            this.Size = new System.Drawing.Size(654, 435);
             this.Load += new System.EventHandler(this.ChiTietDanhSachCauThu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nbsoao)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

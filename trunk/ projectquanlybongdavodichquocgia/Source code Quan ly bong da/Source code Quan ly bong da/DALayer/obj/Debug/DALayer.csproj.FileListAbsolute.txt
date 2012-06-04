@@ -61,3 +61,12 @@ C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\bi
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.dll
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\bin\Debug\DALayer.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\bin\Debug\DALayer.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\bin\Debug\Entities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\bin\Debug\Utilities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\bin\Debug\Entities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\bin\Debug\Utilities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\obj\Debug\ResolveAssemblyReference.cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\DALayer\obj\Debug\DALayer.pdb

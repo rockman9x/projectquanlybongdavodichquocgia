@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -27,6 +27,10 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,6 +48,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Football.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +75,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyBongDaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Phan Thuong\phanthuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan Thuong\phanthuong.Designer.cs">
+      <DependentUpon>phanthuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Quan ly doi bong\ChiTietDanhSachCauThu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -88,6 +101,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Phan Thuong\phanthuong.resx">
+      <DependentUpon>phanthuong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Quan ly  ket qua\QuanLyKetQua.resx">
       <DependentUpon>QuanLyKetQua.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -120,6 +136,9 @@
     <EmbeddedResource Include="Quan ly thi dau\QuanLyThiDau.resx">
       <DependentUpon>QuanLyThiDau.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thay Doi Quy Dinh\ThayDoiQuyDinh.resx">
+      <DependentUpon>ThayDoiQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tra Cuu\TraCuu.resx">
       <DependentUpon>TraCuu.cs</DependentUpon>
@@ -163,6 +182,12 @@
     <Compile Include="Quan ly thi dau\QuanLyThiDau.Designer.cs">
       <DependentUpon>QuanLyThiDau.cs</DependentUpon>
     </Compile>
+    <Compile Include="Thay Doi Quy Dinh\ThayDoiQuyDinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Thay Doi Quy Dinh\ThayDoiQuyDinh.Designer.cs">
+      <DependentUpon>ThayDoiQuyDinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tra Cuu\TraCuu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -172,12 +197,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\football_player.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images copy.gif" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
@@ -245,10 +264,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>QuanLyBongDa.mdf</DependentUpon>
     </Content>
+    <Content Include="Football.ico" />
+    <None Include="Resources\football_player_new.jpg" />
+    <None Include="Resources\panel_2.jpg" />
+    <None Include="Resources\banner_new.jpg" />
     <None Include="ClassDiagram1.cd" />
     <None Include="Resources\button1.jpg" />
-    <None Include="Resources\banner1.jpg" />
-    <None Include="Resources\panel.jpg" />
     <None Include="Resources\button.jpg" />
   </ItemGroup>
   <ItemGroup>

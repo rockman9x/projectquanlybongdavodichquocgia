@@ -102,3 +102,32 @@ C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Presentati
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.QuanLyThiDau.resources
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.TraCuu.resources
 C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.csproj.GenerateResource.Cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\ResolveAssemblyReference.cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.Phan_Thuong.phanthuong.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.QuanLyKetQua.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.ChiTietDanhSachCauThu.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.ChiTietDanhSachDoiBong.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.GiaoDienChinh.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.Properties.Resources.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.QuanLyDoiBong.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.QuanLyTrongTai.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.QuanLyThiDau.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.ThayDoiQuyDinh.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.TraCuu.resources
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Data\QuanLyBongDa.mdf
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Data\QuanLyBongDa_log.ldf
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Presentations.exe.config
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Presentations.exe
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Presentations.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\BLL.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\DALayer.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Entities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Utilities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\BLL.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\DALayer.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Entities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\bin\Debug\Utilities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.exe
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\Presentations\obj\Debug\Presentations.pdb

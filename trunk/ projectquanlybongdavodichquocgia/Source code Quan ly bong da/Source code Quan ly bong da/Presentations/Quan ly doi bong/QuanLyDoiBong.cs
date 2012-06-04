@@ -70,7 +70,7 @@ namespace Presentations
             }
             else if (ql.Insert_San(GetValueSan()))
             {
-                MessageBox.Show("Danh sach đã thêm sân " + tensan + ".");
+                MessageBox.Show("Đã thêm sân " + tensan + " thành công.");
                 this.LoadSan();
             }
             else
@@ -302,6 +302,11 @@ namespace Presentations
                 MessageBox.Show("Bạn chỉ được nhập chữ.");
                 e.KeyChar = '\0';
             }
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

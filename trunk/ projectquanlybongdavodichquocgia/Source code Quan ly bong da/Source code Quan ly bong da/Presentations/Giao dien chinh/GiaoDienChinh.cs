@@ -16,7 +16,7 @@ namespace Presentations
         Button selectedButton = null;
         bool hienpanel = false;
         ToolTip tooltip;
-        string tenPhanMem = "Quản Lý Giải Vô Địch Bóng Đá Toàn Quốc";
+        string tenPhanMem = "Quản lý giải bóng đá vô địch quốc gia";
         public GiaoDienChinh()
         {
             InitializeComponent();
@@ -155,19 +155,6 @@ namespace Presentations
             this.Text = btTraCuu.Text + " - " + tenPhanMem;
         }
 
-        private void TroGiup_Click(object sender, EventArgs e)
-        {
-            btTroGiup.Font = new Font(btTroGiup.Font, FontStyle.Bold);
-            btTroGiup.ForeColor = Color.Brown;
-            if (selectedButton != null)
-            {
-                selectedButton.Font = new Font(selectedButton.Font, FontStyle.Regular);
-                selectedButton.ForeColor=Color.Black;
-            }
-            selectedButton=(sender as Button);
-            Help.ShowHelp(this, "help.chm");
-        }
-
         private void btQuanLy_MouseEnter(object sender, EventArgs e)
         {
             (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Bold);
@@ -179,6 +166,104 @@ namespace Presentations
             {
                 (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Regular);
             }
+        }
+
+        private void btnTroGiup_Click(object sender, EventArgs e)
+        {
+            btThayDoiQuyDinh.Font = new Font(btThayDoiQuyDinh.Font, FontStyle.Bold);
+            btThayDoiQuyDinh.ForeColor = Color.Brown;
+            if (selectedButton != null)
+            {
+                selectedButton.Font = new Font(selectedButton.Font, FontStyle.Regular);
+                selectedButton.ForeColor = Color.Black;
+            }
+            selectedButton = (sender as Button);
+            Help.ShowHelp(this, "help.chm");
+        }
+
+        private void btThayDoiQuyDinh_Click(object sender, EventArgs e)
+        {
+            btThayDoiQuyDinh.Font = new Font(btThayDoiQuyDinh.Font, FontStyle.Bold);
+            btThayDoiQuyDinh.ForeColor = Color.Brown;
+            if (selectedButton != null)
+            {
+                selectedButton.Font = new Font(selectedButton.Font, FontStyle.Regular);
+                selectedButton.ForeColor = Color.Black;
+            }
+            selectedButton = (sender as Button);
+            panel1.Visible = false;
+            panel2.Visible = true;
+            panel2.Controls.Clear();
+            ThayDoiQuyDinh tdqd = new ThayDoiQuyDinh();
+            panel2.Controls.Add(tdqd);
+            tdqd.LoadThayDoiQD();
+            this.Text = btThayDoiQuyDinh.Text + " - " + tenPhanMem;
+        }
+
+        private void btn_PhanThuong_Click(object sender, EventArgs e)
+        {
+            btn_PhanThuong.Font = new Font(btn_PhanThuong.Font, FontStyle.Bold);
+            btn_PhanThuong.ForeColor = Color.Brown;
+            if (selectedButton != null)
+            {
+                selectedButton.Font = new Font(selectedButton.Font, FontStyle.Regular);
+                selectedButton.ForeColor = Color.Black;
+            }
+            selectedButton = (sender as Button);
+            
+            //Help.ShowHelp(this, "help.chm");
+        }
+
+        private void btn_PhanThuong_MouseEnter(object sender, EventArgs e)
+        {
+            (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Bold);
+        }
+
+        private void btn_PhanThuong_MouseLeave(object sender, EventArgs e)
+        {
+            if (selectedButton != (sender as Button))
+            {
+                (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Regular);
+            }
+        }
+
+        private void btThayDoiQuyDinh_MouseLeave(object sender, EventArgs e)
+        {
+            if( selectedButton != (sender as Button ))
+            {
+                (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Regular);
+            }
+        }
+
+        private void btThayDoiQuyDinh_MouseEnter(object sender, EventArgs e)
+        {
+            (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Bold);
+        }
+
+        private void btTraCuu_MouseLeave(object sender, EventArgs e)
+        {
+            if (selectedButton != (sender as Button))
+            {
+                (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Regular);
+            }
+        }
+
+        private void btTraCuu_MouseEnter(object sender, EventArgs e)
+        {
+            (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Bold);
+        }
+
+        private void btnTroGiup_MouseLeave(object sender, EventArgs e)
+        {
+            if (selectedButton != (sender as Button))
+            {
+                (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Regular);
+            }
+        }
+
+        private void btnTroGiup_MouseEnter(object sender, EventArgs e)
+        {
+            (sender as Button).Font = new Font((sender as Button).Font, FontStyle.Bold);
         }
 
     }
