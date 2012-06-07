@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BongDa">
+</Property><Property Name="Solution File" Value="D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BongDa.sln">
+</Property><Property Name="Date" Value="2012年5月20日">
+</Property><Property Name="Time" Value="9:35">
+</Property></Properties><Event ErrorLevel="0" Project="Presentations" Source="Presentations\Presentations.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Presentations" Source="Presentations\Presentations.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Entities" Source="Entities\Entities.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Entities" Source="Entities\Entities.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DALayer" Source="DALayer\DALayer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DALayer" Source="DALayer\DALayer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BLL" Source="BLL\BLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Utilities" Source="Utilities\Utilities.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Utilities" Source="Utilities\Utilities.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BongDa.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BongDa.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Presentations" Source="Presentations\Presentations.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Entities" Source="Entities\Entities.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DALayer" Source="DALayer\DALayer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BLL" Source="BLL\BLL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Utilities" Source="Utilities\Utilities.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

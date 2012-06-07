@@ -1,0 +1,99 @@
+D:\TAP NHAM\BongDa\BLL\bin\Debug\BLL.dll
+D:\TAP NHAM\BongDa\BLL\bin\Debug\BLL.pdb
+D:\TAP NHAM\BongDa\BLL\bin\Debug\DALayer.dll
+D:\TAP NHAM\BongDa\BLL\bin\Debug\Entities.dll
+D:\TAP NHAM\BongDa\BLL\bin\Debug\Utilities.dll
+D:\TAP NHAM\BongDa\BLL\bin\Debug\Utilities.pdb
+D:\TAP NHAM\BongDa\BLL\bin\Debug\DALayer.pdb
+D:\TAP NHAM\BongDa\BLL\bin\Debug\Entities.pdb
+D:\TAP NHAM\BongDa\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\TAP NHAM\BongDa\BLL\obj\Debug\BLL.dll
+D:\TAP NHAM\BongDa\BLL\obj\Debug\BLL.pdb
+O:\BongDa\BLL\bin\Debug\BLL.dll
+O:\BongDa\BLL\bin\Debug\BLL.pdb
+O:\BongDa\BLL\bin\Debug\DALayer.dll
+O:\BongDa\BLL\bin\Debug\Entities.dll
+O:\BongDa\BLL\bin\Debug\Utilities.dll
+O:\BongDa\BLL\bin\Debug\Utilities.pdb
+O:\BongDa\BLL\bin\Debug\DALayer.pdb
+O:\BongDa\BLL\bin\Debug\Entities.pdb
+O:\BongDa\BLL\obj\Debug\ResolveAssemblyReference.cache
+O:\BongDa\BLL\obj\Debug\BLL.dll
+O:\BongDa\BLL\obj\Debug\BLL.pdb
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\BLL.dll
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\BLL.pdb
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\DALayer.dll
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\Entities.dll
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\Utilities.dll
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\Utilities.pdb
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\DALayer.pdb
+D:\TAP NHAM\cuong\BongDa\BLL\bin\Debug\Entities.pdb
+D:\TAP NHAM\cuong\BongDa\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\TAP NHAM\cuong\BongDa\BLL\obj\Debug\BLL.dll
+D:\TAP NHAM\cuong\BongDa\BLL\obj\Debug\BLL.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\BLL.dll
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\BLL.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\DALayer.dll
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\Entities.dll
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\Utilities.dll
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\Utilities.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\DALayer.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\bin\Debug\Entities.pdb
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\obj\Debug\BLL.dll
+C:\Documents and Settings\Me\My Documents\BongDa\BLL\obj\Debug\BLL.pdb
+C:\BongDa\BLL\bin\Debug\BLL.dll
+C:\BongDa\BLL\bin\Debug\BLL.pdb
+C:\BongDa\BLL\bin\Debug\DALayer.dll
+C:\BongDa\BLL\bin\Debug\Entities.dll
+C:\BongDa\BLL\bin\Debug\Utilities.dll
+C:\BongDa\BLL\bin\Debug\Utilities.pdb
+C:\BongDa\BLL\bin\Debug\DALayer.pdb
+C:\BongDa\BLL\bin\Debug\Entities.pdb
+C:\BongDa\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\BongDa\BLL\obj\Debug\BLL.dll
+C:\BongDa\BLL\obj\Debug\BLL.pdb
+G:\Source code Quan ly bong da\BLL\bin\Debug\BLL.dll
+G:\Source code Quan ly bong da\BLL\bin\Debug\BLL.pdb
+G:\Source code Quan ly bong da\BLL\bin\Debug\DALayer.dll
+G:\Source code Quan ly bong da\BLL\bin\Debug\Entities.dll
+G:\Source code Quan ly bong da\BLL\bin\Debug\Utilities.dll
+G:\Source code Quan ly bong da\BLL\bin\Debug\Utilities.pdb
+G:\Source code Quan ly bong da\BLL\bin\Debug\DALayer.pdb
+G:\Source code Quan ly bong da\BLL\bin\Debug\Entities.pdb
+G:\Source code Quan ly bong da\BLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Source code Quan ly bong da\BLL\obj\Debug\BLL.dll
+G:\Source code Quan ly bong da\BLL\obj\Debug\BLL.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\BLL.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\BLL.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\DALayer.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\Entities.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\Utilities.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\Utilities.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\DALayer.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\bin\Debug\Entities.pdb
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\obj\Debug\BLL.dll
+C:\Documents and Settings\vietson\Desktop\Source code Quan ly bong da\BLL\obj\Debug\BLL.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\BLL.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\BLL.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\DALayer.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Entities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Utilities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\DALayer.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Entities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Utilities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\BLL.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\BLL.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\BLL.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\BLL.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\DALayer.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Entities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Utilities.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\DALayer.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Entities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\bin\Debug\Utilities.pdb
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\BLL.dll
+D:\11HCB\NMCNPM\Management About Football\ projectquanlybongdavodichquocgia\Source code Quan ly bong da_20120606\Source code Quan ly bong da\Source code Quan ly bong da\BLL\obj\Debug\BLL.pdb
